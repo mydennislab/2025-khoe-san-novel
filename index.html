@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repo Navigator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+            color: #0366d6;
+        }
+    </style>
+</head>
+<body>
+    <h2>Repository File Navigator</h2>
+    <p>Click on files to navigate:</p>
+    <ul id="repo-contents"></ul>
+
+    <script>
+        async function fetchRepoContents() {
+            try {
+                const response = await fetch("repo_contents.json");
+                if (!response.ok) throw new Error("Failed to load repo contents.");
+                const data = await response.json();
+                renderFiles(data);
+            } catch (error) {
+                document.getElementById("repo-contents").innerHTML = `<p style="color:red;">Error: ${error.message}</p>`;
+            }
+        }
+
+        function renderFiles(files) {
+            const list = document.getElementById("repo-contents");
+            list.innerHTML = "";
+            files.forEach(file => {
+                const li = document.createElement("li");
+                const link = document.createElement("a");
+                link.textContent = file.name;
+                link.href = file.html_url;
+                link.target = "_blank";
+                li.appendChild(link);
+                list.appendChild(li);
+            });
+        }
+
+        fetchRepoContents();
+    </script>
+</body>
+</html>
