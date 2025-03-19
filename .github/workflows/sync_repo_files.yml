@@ -1,11 +1,12 @@
 name: Sync Repo Contents to JSON
 
 on:
-  schedule:
-    - cron: '0 0 * * *'  # Runs daily
   push:
     branches:
-      - main  # Change if needed
+      - main  # Runs on every push to main
+  workflow_dispatch:  # Allows manual triggering
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily
 
 jobs:
   update-json:
