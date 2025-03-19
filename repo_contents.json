@@ -1,0 +1,252 @@
+[
+  { "name": "chm13_analysis", "type": "dir", "contents": 
+[
+  { "name": "alignment.bam", "type": "file" }
+,
+  { "name": "alignment.sam", "type": "file" }
+,
+  { "name": "alignment.sorted.bam", "type": "file" }
+,
+  { "name": "alignment.sorted.bam.bai", "type": "file" }
+,
+  { "name": "alignment.stats", "type": "file" }
+,
+  { "name": "analysis.ipynb", "type": "file" }
+,
+  { "name": "chm13v2.0_SD.full.bed", "type": "file" }
+,
+  { "name": "contamination", "type": "dir", "contents": 
+[
+]
+,
+  { "name": "contig_names.txt", "type": "file" }
+,
+  { "name": "contigs_list.txt", "type": "file" }
+,
+  { "name": "document_steps.ipynb", "type": "file" }
+,
+  { "name": "extracted_variants_sequences.fa", "type": "file" }
+,
+  { "name": "full_contigs_with_variants.fa", "type": "file" }
+,
+  { "name": "highimpact_variants.bed", "type": "file" }
+,
+  { "name": "highimpact_variants_sd_intersection.bed", "type": "file" }
+,
+  { "name": "highimpact_variants.vcf", "type": "file" }
+,
+  { "name": "ideogram", "type": "dir", "contents": 
+[
+  { "name": "2.py", "type": "file" }
+,
+  { "name": "3.py", "type": "file" }
+,
+  { "name": "alignment_analysis_mapq_histogram.png", "type": "file" }
+,
+  { "name": "alignment.sam", "type": "file" }
+,
+  { "name": "alignment_sorted.bam", "type": "file" }
+,
+  { "name": "alignment_sorted.bam.bai", "type": "file" }
+,
+  { "name": "analyze_bam.py", "type": "file" }
+,
+  { "name": "annotations.json", "type": "file" }
+,
+  { "name": "chm13v2.0.fa", "type": "file" }
+,
+  { "name": "chm13v2.0.fa.amb", "type": "file" }
+,
+  { "name": "chm13v2.0.fa.ann", "type": "file" }
+,
+  { "name": "chm13v2.0.fa.bwt", "type": "file" }
+,
+  { "name": "chm13v2.0.fa.fai", "type": "file" }
+,
+  { "name": "chm13v2.0.fa.pac", "type": "file" }
+,
+  { "name": "chm13v2.0.fa.sa", "type": "file" }
+,
+  { "name": "ideogram.html", "type": "file" }
+,
+  { "name": "ideogram.png", "type": "file" }
+,
+  { "name": "ideogram.py", "type": "file" }
+,
+  { "name": "mapq_distribution.png", "type": "file" }
+,
+  { "name": "w0_all.unmapped.T2T.nodup.larger_rep.noGRCh38.bg1000.fa", "type": "file" }
+,
+  { "name": "w0_all.unmapped.T2T.nodup.larger_rep.noGRCh38.bg1000.fa.fai", "type": "file" }
+]
+,
+  { "name": "mapped.bam", "type": "file" }
+,
+  { "name": "mapped_contigs.fa", "type": "file" }
+,
+  { "name": "mapped_plots-quals.gp", "type": "file" }
+,
+  { "name": "mapped_stats.txt", "type": "file" }
+,
+  { "name": "mapq_distribution.png", "type": "file" }
+,
+  { "name": "mapq_values.txt", "type": "file" }
+,
+  { "name": "NC_highimpact_variants.bed", "type": "file" }
+,
+  { "name": "NC_high_impact_variants.vcf", "type": "file" }
+,
+  { "name": "plot_mapq.R", "type": "file" }
+,
+  { "name": "segdups_simple.bed", "type": "file" }
+,
+  { "name": "sort_fasta_by_length.py", "type": "file" }
+,
+  { "name": "structural_variants.vcf", "type": "file" }
+,
+  { "name": "unmapped.bam", "type": "file" }
+,
+  { "name": "unmapped_chunks", "type": "dir", "contents": 
+[
+  { "name": "unmapped_contigs_chunk_10.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_11.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_12.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_1.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_2.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_3.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_4.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_5.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_6.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_7.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_8.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_chunk_9.fa", "type": "file" }
+]
+,
+  { "name": "unmapped_contigs.fa", "type": "file" }
+,
+  { "name": "unmapped_contigs_sorted.fa", "type": "file" }
+,
+  { "name": "variant_alignments.sam", "type": "file" }
+,
+  { "name": "variants_annotated.vcf", "type": "file" }
+,
+  { "name": "variants_annotated.vcf.gz", "type": "file" }
+,
+  { "name": "variants_annotated.vcf.gz.tbi", "type": "file" }
+,
+  { "name": "variants_annotated.vcf_summary.html", "type": "file" }
+,
+  { "name": "variants.ann.vcf", "type": "file" }
+,
+  { "name": "variants.vcf", "type": "file" }
+,
+  { "name": "viz", "type": "dir", "contents": 
+[
+  { "name": "plot_alignment_stats-acgt-cycles.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-acgt-cycles.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats-coverage.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-coverage.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats-gc-content.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-gc-content.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats-gc-depth.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-gc-depth.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats.html", "type": "file" }
+,
+  { "name": "plot_alignment_stats-indel-cycles.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-indel-cycles.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats-indel-dist.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-indel-dist.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats-quals2.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-quals2.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats-quals3.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-quals3.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats-quals.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-quals-hm.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-quals-hm.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats-quals.png", "type": "file" }
+,
+  { "name": "plot_alignment_stats-read-length.gp", "type": "file" }
+,
+  { "name": "plot_alignment_stats-read-length.png", "type": "file" }
+]
+,
+  { "name": "w0_all.unmapped.T2T.nodup.larger_rep.noGRCh38.bg1000.fa", "type": "file" }
+,
+  { "name": "w0_all.unmapped.T2T.nodup.larger_rep.noGRCh38.bg1000.fa.fai", "type": "file" }
+]
+,
+  { "name": "dani_unmapped_to_t2t.fa", "type": "file" }
+,
+  { "name": "dani_unmapped_to_t2t.fa.gz", "type": "file" }
+,
+  { "name": "dani_unmapped_to_t2t_larger_than_1000.fa.gz", "type": "file" }
+,
+  { "name": "dani_unmapped_to_t2t_less_than_1000.fa", "type": "file" }
+,
+  { "name": "hprc", "type": "dir", "contents": 
+[
+  { "name": "aln.pack", "type": "file" }
+,
+  { "name": "dani_unmapped_to_t2t_less_than_1000.fa.bam", "type": "file" }
+,
+  { "name": "dani_unmapped_to_t2t_less_than_1000.fa.gam", "type": "file" }
+,
+  { "name": "dani_unmapped_to_t2t_less_than_1000.fa.gam.stats", "type": "file" }
+,
+  { "name": "dani_unmapped_to_t2t_less_than_1000.fa.json", "type": "file" }
+,
+  { "name": "h", "type": "file" }
+,
+  { "name": "hprc-v1.1-mc-chm13.d9.dist", "type": "file" }
+,
+  { "name": "hprc-v1.1-mc-chm13.d9.gbz", "type": "file" }
+,
+  { "name": "hprc-v1.1-mc-chm13.d9.shortread.zipcodes", "type": "file" }
+,
+  { "name": "hprc-v1.1-mc-chm13.hapl", "type": "file" }
+,
+  { "name": "hprc-v1.1-mc-chm13.min", "type": "file" }
+,
+  { "name": "hprc-v1.1-mc-chm13.snarls", "type": "file" }
+,
+  { "name": "log_vg_giraffe", "type": "file" }
+]
+,
+  { "name": "index.html", "type": "file" }
+,
+  { "name": "repo_contents.json", "type": "file" }
+,
+  { "name": "tree.sh", "type": "file" }
+,
+  { "name": "workflow.sh", "type": "file" }
+]
