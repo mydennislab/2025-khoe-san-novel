@@ -1,0 +1,1116 @@
+##gff-version 3
+##sequence-region seq00000708_SA2119.1 1 1443
+seq00000708_SA2119.1	RepeatMasker	dispersed_repeat	1143	1219	29.5	+	.	ID=1;Target "Motif:A-rich" 1 74
+##sequence-region seq00002508_SA1517.1 1 1200
+seq00002508_SA1517.1	RepeatMasker	dispersed_repeat	547	628	27.5	+	.	ID=2;Target "Motif:(TCGTTT)n" 1 85
+##sequence-region seq00002531_SA1517.1 1 1787
+seq00002531_SA1517.1	RepeatMasker	dispersed_repeat	17	55	18.2	+	.	ID=3;Target "Motif:(TTTTATA)n" 1 39
+##sequence-region seq00003777_SA2119.1 1 1451
+seq00003777_SA2119.1	RepeatMasker	dispersed_repeat	478	517	24.8	+	.	ID=4;Target "Motif:(CTT)n" 1 39
+seq00003777_SA2119.1	RepeatMasker	dispersed_repeat	871	903	14.2	+	.	ID=5;Target "Motif:(TATTAA)n" 1 33
+##sequence-region seq00003878_SA1517.1 1 1420
+seq00003878_SA1517.1	RepeatMasker	dispersed_repeat	1029	1108	33.4	+	.	ID=6;Target "Motif:(ATA)n" 1 79
+##sequence-region seq00004829_SA1517.1 1 10010
+seq00004829_SA1517.1	RepeatMasker	dispersed_repeat	6260	6281	 0.0	+	.	ID=7;Target "Motif:(GTT)n" 1 22
+##sequence-region seq00004933_SA1517.1 1 1229
+seq00004933_SA1517.1	RepeatMasker	dispersed_repeat	898	922	13.2	+	.	ID=8;Target "Motif:(AC)n" 1 25
+seq00004933_SA1517.1	RepeatMasker	dispersed_repeat	1142	1201	22.7	+	.	ID=9;Target "Motif:A-rich" 1 58
+##sequence-region seq00004941_SA1517.1 1 2259
+seq00004941_SA1517.1	RepeatMasker	dispersed_repeat	1016	1038	 0.0	+	.	ID=10;Target "Motif:(A)n" 1 23
+##sequence-region seq00004979_SA1517.1 1 2413
+seq00004979_SA1517.1	RepeatMasker	dispersed_repeat	849	913	23.3	+	.	ID=11;Target "Motif:(ATATTA)n" 1 70
+seq00004979_SA1517.1	RepeatMasker	dispersed_repeat	1652	1685	16.5	+	.	ID=12;Target "Motif:(ATAAGT)n" 1 36
+##sequence-region seq00004982_SA1517.1 1 3872
+seq00004982_SA1517.1	RepeatMasker	dispersed_repeat	473	550	24.8	+	.	ID=13;Target "Motif:(TTATTT)n" 1 72
+seq00004982_SA1517.1	RepeatMasker	dispersed_repeat	2909	2973	24.0	+	.	ID=14;Target "Motif:(TATTTT)n" 1 59
+seq00004982_SA1517.1	RepeatMasker	dispersed_repeat	2945	3005	24.6	+	.	ID=15;Target "Motif:(TTTTAAT)n" 1 62
+##sequence-region seq00005082_SA2119.1 1 2444
+seq00005082_SA2119.1	RepeatMasker	dispersed_repeat	18	68	28.8	+	.	ID=16;Target "Motif:(AAGATA)n" 1 51
+##sequence-region seq00005089_SA2119.1 1 3242
+seq00005089_SA2119.1	RepeatMasker	dispersed_repeat	2288	2315	 3.7	+	.	ID=17;Target "Motif:(T)n" 1 28
+##sequence-region seq00005143_SA1517.1 1 5000
+seq00005143_SA1517.1	RepeatMasker	dispersed_repeat	787	807	 4.9	+	.	ID=18;Target "Motif:(GTTA)n" 1 21
+seq00005143_SA1517.1	RepeatMasker	dispersed_repeat	1371	1430	26.1	+	.	ID=19;Target "Motif:(TTCTTTC)n" 1 57
+seq00005143_SA1517.1	RepeatMasker	dispersed_repeat	1881	1936	18.8	+	.	ID=20;Target "Motif:A-rich" 1 52
+##sequence-region seq00005306_SA1517.1 1 1392
+seq00005306_SA1517.1	RepeatMasker	dispersed_repeat	1172	1221	26.1	+	.	ID=21;Target "Motif:A-rich" 1 52
+##sequence-region seq00005309_SA1517.1 1 1197
+seq00005309_SA1517.1	RepeatMasker	dispersed_repeat	81	144	23.1	+	.	ID=22;Target "Motif:(ATATT)n" 1 64
+seq00005309_SA1517.1	RepeatMasker	dispersed_repeat	417	450	17.5	+	.	ID=23;Target "Motif:(TAG)n" 1 33
+seq00005309_SA1517.1	RepeatMasker	dispersed_repeat	579	619	26.0	+	.	ID=24;Target "Motif:(ATGAAG)n" 1 41
+seq00005309_SA1517.1	RepeatMasker	dispersed_repeat	1005	1058	23.8	+	.	ID=25;Target "Motif:A-rich" 1 57
+seq00005309_SA1517.1	RepeatMasker	dispersed_repeat	1081	1110	15.8	+	.	ID=25;Target "Motif:A-rich" 1 29
+##sequence-region seq00005340_SA1517.1 1 1236
+seq00005340_SA1517.1	RepeatMasker	dispersed_repeat	754	787	20.2	+	.	ID=26;Target "Motif:(TTTTGC)n" 1 35
+##sequence-region seq00005376_SA1517.1 1 1650
+seq00005376_SA1517.1	RepeatMasker	dispersed_repeat	328	366	 9.8	+	.	ID=27;Target "Motif:(TAAGAA)n" 1 40
+##sequence-region seq00005382_SA1517.1 1 1321
+seq00005382_SA1517.1	RepeatMasker	dispersed_repeat	929	958	 0.0	+	.	ID=28;Target "Motif:(T)n" 1 30
+##sequence-region seq00005397_SA1517.1 1 1354
+seq00005397_SA1517.1	RepeatMasker	dispersed_repeat	519	569	22.8	+	.	ID=29;Target "Motif:(TTTGTCA)n" 1 54
+##sequence-region seq00005442_SA1517.1 1 2271
+seq00005442_SA1517.1	RepeatMasker	dispersed_repeat	519	540	 0.0	+	.	ID=30;Target "Motif:(A)n" 1 22
+##sequence-region seq00005457_SA1517.1 1 1122
+seq00005457_SA1517.1	RepeatMasker	dispersed_repeat	125	166	11.3	+	.	ID=31;Target "Motif:(TCTCACT)n" 1 40
+##sequence-region seq00005599_SA1517.1 1 1163
+seq00005599_SA1517.1	RepeatMasker	dispersed_repeat	796	831	13.6	+	.	ID=32;Target "Motif:GA-rich" 1 34
+##sequence-region seq00005600_SA1517.1 1 1176
+seq00005600_SA1517.1	RepeatMasker	dispersed_repeat	852	885	 9.4	+	.	ID=33;Target "Motif:(AGATGC)n" 1 37
+##sequence-region seq00005602_SA1517.1 1 1910
+seq00005602_SA1517.1	RepeatMasker	dispersed_repeat	409	445	 5.6	+	.	ID=34;Target "Motif:(A)n" 1 37
+##sequence-region seq00005790_SA1517.1 1 1198
+seq00005790_SA1517.1	RepeatMasker	dispersed_repeat	580	625	23.9	+	.	ID=35;Target "Motif:(TTTTTG)n" 1 46
+##sequence-region seq00005793_SA1517.1 1 1061
+seq00005793_SA1517.1	RepeatMasker	dispersed_repeat	318	366	22.4	+	.	ID=36;Target "Motif:A-rich" 1 49
+seq00005793_SA1517.1	RepeatMasker	dispersed_repeat	439	476	15.5	+	.	ID=37;Target "Motif:(AAGAGAT)n" 1 37
+seq00005793_SA1517.1	RepeatMasker	dispersed_repeat	495	524	 0.0	+	.	ID=38;Target "Motif:(AGAGAAA)n" 1 29
+##sequence-region seq00005991_SA2119.1 1 2610
+seq00005991_SA2119.1	RepeatMasker	dispersed_repeat	2289	2336	25.7	+	.	ID=39;Target "Motif:A-rich" 1 48
+##sequence-region seq00006521_SA1517.1 1 1570
+seq00006521_SA1517.1	RepeatMasker	dispersed_repeat	593	624	 0.0	+	.	ID=40;Target "Motif:(A)n" 1 32
+##sequence-region seq00006572_SA1517.1 1 2004
+seq00006572_SA1517.1	RepeatMasker	dispersed_repeat	107	160	26.4	+	.	ID=41;Target "Motif:(ACACGA)n" 1 57
+##sequence-region seq00006619_SA1517.1 1 1366
+seq00006619_SA1517.1	RepeatMasker	dispersed_repeat	1229	1283	23.3	+	.	ID=42;Target "Motif:(CTTTTT)n" 1 55
+##sequence-region seq00006641_SA2119.1 1 2718
+seq00006641_SA2119.1	RepeatMasker	dispersed_repeat	1015	1057	22.6	+	.	ID=43;Target "Motif:(CTCCT)n" 1 43
+##sequence-region seq00006685_SA1517.1 1 2397
+seq00006685_SA1517.1	RepeatMasker	dispersed_repeat	1328	1404	29.6	+	.	ID=44;Target "Motif:(CTATAA)n" 1 73
+##sequence-region seq00006714_SA1517.1 1 1880
+seq00006714_SA1517.1	RepeatMasker	dispersed_repeat	1442	1471	 0.0	+	.	ID=45;Target "Motif:(T)n" 1 30
+##sequence-region seq00006727_SA1517.1 1 1291
+seq00006727_SA1517.1	RepeatMasker	dispersed_repeat	191	228	15.5	+	.	ID=46;Target "Motif:(CAA)n" 1 39
+##sequence-region seq00006733_SA1517.1 1 2231
+seq00006733_SA1517.1	RepeatMasker	dispersed_repeat	778	805	 0.0	+	.	ID=47;Target "Motif:(A)n" 1 28
+##sequence-region seq00006746_SA2119.1 1 5274
+seq00006746_SA2119.1	RepeatMasker	dispersed_repeat	4781	4821	23.9	+	.	ID=48;Target "Motif:(TATTT)n" 1 40
+##sequence-region seq00006774_SA2119.1 1 11679
+seq00006774_SA2119.1	RepeatMasker	dispersed_repeat	260	307	22.6	+	.	ID=49;Target "Motif:(TAATT)n" 1 49
+seq00006774_SA2119.1	RepeatMasker	dispersed_repeat	412	477	23.4	+	.	ID=50;Target "Motif:(ATTTCTC)n" 1 60
+seq00006774_SA2119.1	RepeatMasker	dispersed_repeat	5765	5827	25.1	+	.	ID=51;Target "Motif:(AT)n" 1 65
+seq00006774_SA2119.1	RepeatMasker	dispersed_repeat	7503	7554	20.0	+	.	ID=52;Target "Motif:(TTA)n" 1 51
+seq00006774_SA2119.1	RepeatMasker	dispersed_repeat	8637	8669	14.2	+	.	ID=53;Target "Motif:(TAGAAT)n" 1 32
+##sequence-region seq00006916_SA1517.1 1 1093
+seq00006916_SA1517.1	RepeatMasker	dispersed_repeat	325	369	17.3	+	.	ID=54;Target "Motif:(GATGAA)n" 1 42
+##sequence-region seq00006967_SA1517.1 1 3574
+seq00006967_SA1517.1	RepeatMasker	dispersed_repeat	1074	1098	13.1	+	.	ID=55;Target "Motif:(ATA)n" 1 25
+seq00006967_SA1517.1	RepeatMasker	dispersed_repeat	3489	3537	17.0	+	.	ID=56;Target "Motif:A-rich" 1 44
+##sequence-region seq00007005_SA1517.1 1 1141
+seq00007005_SA1517.1	RepeatMasker	dispersed_repeat	552	600	24.2	+	.	ID=57;Target "Motif:(TTTACA)n" 1 51
+##sequence-region seq00007038_SA1517.1 1 1117
+seq00007038_SA1517.1	RepeatMasker	dispersed_repeat	381	407	16.5	+	.	ID=58;Target "Motif:(TTCCA)n" 1 27
+##sequence-region seq00007199_SA1517.1 1 1242
+seq00007199_SA1517.1	RepeatMasker	dispersed_repeat	8	41	14.9	+	.	ID=59;Target "Motif:(GTTTAT)n" 1 32
+##sequence-region seq00007216_SA2119.1 1 2133
+seq00007216_SA2119.1	RepeatMasker	dispersed_repeat	547	585	17.6	+	.	ID=60;Target "Motif:A-rich" 1 40
+##sequence-region seq00007218_SA2119.1 1 1360
+seq00007218_SA2119.1	RepeatMasker	dispersed_repeat	282	328	18.4	+	.	ID=61;Target "Motif:A-rich" 1 45
+##sequence-region seq00007266_SA1517.1 1 1070
+seq00007266_SA1517.1	RepeatMasker	dispersed_repeat	604	637	 3.0	+	.	ID=62;Target "Motif:(AAAGTGA)n" 1 34
+##sequence-region seq00007283_SA1517.1 1 2094
+seq00007283_SA1517.1	RepeatMasker	dispersed_repeat	1674	1720	14.2	+	.	ID=63;Target "Motif:(TTAGACG)n" 1 47
+##sequence-region seq00007319_SA2119.1 1 1222
+seq00007319_SA2119.1	RepeatMasker	dispersed_repeat	61	101	20.5	+	.	ID=64;Target "Motif:(TTTCTA)n" 1 40
+##sequence-region seq00007325_SA1517.1 1 2135
+seq00007325_SA1517.1	RepeatMasker	dispersed_repeat	1195	1234	20.1	+	.	ID=65;Target "Motif:A-rich" 1 42
+##sequence-region seq00007429_SA1517.1 1 1629
+seq00007429_SA1517.1	RepeatMasker	dispersed_repeat	1462	1495	16.4	+	.	ID=66;Target "Motif:(ATATTA)n" 1 36
+##sequence-region seq00007439_SA1517.1 1 1917
+seq00007439_SA1517.1	RepeatMasker	dispersed_repeat	386	410	 0.0	+	.	ID=67;Target "Motif:(A)n" 1 25
+##sequence-region seq00007455_SA1517.1 1 1299
+seq00007455_SA1517.1	RepeatMasker	dispersed_repeat	9	55	20.2	+	.	ID=68;Target "Motif:(TTGAT)n" 1 48
+seq00007455_SA1517.1	RepeatMasker	dispersed_repeat	72	120	25.7	+	.	ID=69;Target "Motif:(TTGTTTA)n" 1 48
+##sequence-region seq00007515_SA1517.1 1 1561
+seq00007515_SA1517.1	RepeatMasker	dispersed_repeat	453	504	19.3	+	.	ID=70;Target "Motif:A-rich" 1 49
+##sequence-region seq00007523_SA1517.1 1 1765
+seq00007523_SA1517.1	RepeatMasker	dispersed_repeat	1483	1552	19.4	+	.	ID=71;Target "Motif:G-rich" 1 70
+seq00007523_SA1517.1	RepeatMasker	dispersed_repeat	1581	1612	13.7	+	.	ID=72;Target "Motif:GA-rich" 1 33
+##sequence-region seq00007814_SA1517.1 1 1884
+seq00007814_SA1517.1	RepeatMasker	dispersed_repeat	997	1044	13.9	+	.	ID=73;Target "Motif:(ATTAGAC)n" 1 48
+seq00007814_SA1517.1	RepeatMasker	dispersed_repeat	1057	1135	21.4	+	.	ID=74;Target "Motif:(CTAACGT)n" 1 81
+##sequence-region seq00008099_SA1517.1 1 6995
+seq00008099_SA1517.1	RepeatMasker	dispersed_repeat	2994	3045	21.6	+	.	ID=75;Target "Motif:AmnL2-1" 680 732
+seq00008099_SA1517.1	RepeatMasker	dispersed_repeat	3687	3725	27.7	+	.	ID=76;Target "Motif:(GGATGC)n" 1 39
+##sequence-region seq00008747_SA2034.1 1 1888
+seq00008747_SA2034.1	RepeatMasker	dispersed_repeat	1774	1812	11.7	+	.	ID=77;Target "Motif:(CTTATCGT)n" 1 41
+##sequence-region seq00009183_SA1517.1 1 1909
+seq00009183_SA1517.1	RepeatMasker	dispersed_repeat	427	502	16.2	+	.	ID=78;Target "Motif:(ATTAGAC)n" 1 76
+seq00009183_SA1517.1	RepeatMasker	dispersed_repeat	570	613	15.1	+	.	ID=79;Target "Motif:(TTTAGAG)n" 1 45
+##sequence-region seq00009203_SA1517.1 1 1023
+seq00009203_SA1517.1	RepeatMasker	dispersed_repeat	364	396	10.3	+	.	ID=80;Target "Motif:A-rich" 1 34
+##sequence-region seq00009241_SA1517.1 1 2473
+seq00009241_SA1517.1	RepeatMasker	dispersed_repeat	1714	1737	 0.0	+	.	ID=81;Target "Motif:(T)n" 1 24
+seq00009241_SA1517.1	RepeatMasker	dispersed_repeat	2281	2321	12.3	+	.	ID=82;Target "Motif:A-rich" 1 38
+##sequence-region seq00009586_SA2119.1 1 1214
+seq00009586_SA2119.1	RepeatMasker	dispersed_repeat	534	574	14.2	+	.	ID=83;Target "Motif:(TCAT)n" 1 43
+##sequence-region seq00009859_SA1517.1 1 1111
+seq00009859_SA1517.1	RepeatMasker	dispersed_repeat	339	385	22.4	+	.	ID=84;Target "Motif:GA-rich" 1 44
+##sequence-region seq00010642_SA1517.1 1 1657
+seq00010642_SA1517.1	RepeatMasker	dispersed_repeat	292	326	 9.7	+	.	ID=85;Target "Motif:(GCTTT)n" 1 37
+##sequence-region seq00010987_SA2119.1 1 1164
+seq00010987_SA2119.1	RepeatMasker	dispersed_repeat	182	220	 9.7	+	.	ID=86;Target "Motif:(CAGAAG)n" 1 37
+##sequence-region seq00011047_SA1517.1 1 1050
+seq00011047_SA1517.1	RepeatMasker	dispersed_repeat	191	226	 8.9	+	.	ID=87;Target "Motif:(AATAGTA)n" 1 40
+##sequence-region seq00011658_SA1517.1 1 1028
+seq00011658_SA1517.1	RepeatMasker	dispersed_repeat	139	214	23.4	+	.	ID=88;Target "Motif:(TAT)n" 1 72
+##sequence-region seq00011796_SA1517.1 1 1180
+seq00011796_SA1517.1	RepeatMasker	dispersed_repeat	290	337	17.0	+	.	ID=89;Target "Motif:(TTATGTT)n" 1 50
+##sequence-region seq00012030_SA1517.1 1 1468
+seq00012030_SA1517.1	RepeatMasker	dispersed_repeat	184	232	16.7	+	.	ID=90;Target "Motif:(TATCCTA)n" 1 52
+seq00012030_SA1517.1	RepeatMasker	dispersed_repeat	1270	1311	29.8	+	.	ID=91;Target "Motif:A-rich" 1 42
+##sequence-region seq00012528_SA1517.1 1 1049
+seq00012528_SA1517.1	RepeatMasker	dispersed_repeat	399	416	 0.0	+	.	ID=92;Target "Motif:(A)n" 1 18
+##sequence-region seq00012794_SA1517.1 1 1566
+seq00012794_SA1517.1	RepeatMasker	dispersed_repeat	288	319	13.7	+	.	ID=93;Target "Motif:(ATTTTA)n" 1 34
+##sequence-region seq00012867_SA1517.1 1 1475
+seq00012867_SA1517.1	RepeatMasker	dispersed_repeat	62	107	22.7	+	.	ID=94;Target "Motif:(CTT)n" 1 48
+##sequence-region seq00013055_SA1517.1 1 1607
+seq00013055_SA1517.1	RepeatMasker	dispersed_repeat	365	406	21.2	+	.	ID=95;Target "Motif:(TTA)n" 1 40
+##sequence-region seq00013107_SA1517.1 1 1027
+seq00013107_SA1517.1	RepeatMasker	dispersed_repeat	174	218	12.4	+	.	ID=96;Target "Motif:(TTGAATA)n" 1 40
+##sequence-region seq00013213_SA1517.1 1 1090
+seq00013213_SA1517.1	RepeatMasker	dispersed_repeat	724	764	14.8	+	.	ID=97;Target "Motif:(TTCTCCT)n" 1 41
+##sequence-region seq00013219_SA1517.1 1 2039
+seq00013219_SA1517.1	RepeatMasker	dispersed_repeat	824	844	 0.0	+	.	ID=98;Target "Motif:(A)n" 1 21
+##sequence-region seq00013626_SA2119.1 1 5671
+seq00013626_SA2119.1	RepeatMasker	dispersed_repeat	4423	4468	22.3	+	.	ID=99;Target "Motif:(GTATA)n" 1 45
+##sequence-region seq00014053_SA2119.1 1 2422
+seq00014053_SA2119.1	RepeatMasker	dispersed_repeat	1021	1072	19.7	+	.	ID=100;Target "Motif:(TCCAGA)n" 1 55
+##sequence-region seq00014102_SA2119.1 1 4815
+seq00014102_SA2119.1	RepeatMasker	dispersed_repeat	814	867	24.8	+	.	ID=101;Target "Motif:(ATATTT)n" 1 53
+seq00014102_SA2119.1	RepeatMasker	dispersed_repeat	1931	2071	27.0	+	.	ID=102;Target "Motif:(TTTTTC)n" 1 137
+seq00014102_SA2119.1	RepeatMasker	dispersed_repeat	2112	2147	16.3	+	.	ID=103;Target "Motif:(TTTCT)n" 1 36
+seq00014102_SA2119.1	RepeatMasker	dispersed_repeat	2769	2808	16.5	+	.	ID=104;Target "Motif:(TTTTAA)n" 1 37
+seq00014102_SA2119.1	RepeatMasker	dispersed_repeat	3867	3929	24.4	+	.	ID=105;Target "Motif:(TTTA)n" 1 62
+##sequence-region seq00014161_SA1517.1 1 1360
+seq00014161_SA1517.1	RepeatMasker	dispersed_repeat	831	876	25.7	+	.	ID=106;Target "Motif:(TTTGGT)n" 1 44
+##sequence-region seq00014605_SA1517.1 1 1750
+seq00014605_SA1517.1	RepeatMasker	dispersed_repeat	370	401	12.5	+	.	ID=107;Target "Motif:L3" 1833 1864
+##sequence-region seq00015102_SA1517.1 1 1124
+seq00015102_SA1517.1	RepeatMasker	dispersed_repeat	412	466	19.2	+	.	ID=108;Target "Motif:(TGCTTAG)n" 1 58
+##sequence-region seq00017216_SA1517.1 1 3039
+seq00017216_SA1517.1	RepeatMasker	dispersed_repeat	781	848	18.4	+	.	ID=109;Target "Motif:(AT)n" 1 69
+##sequence-region seq00017565_SA2119.1 1 24698
+seq00017565_SA2119.1	RepeatMasker	dispersed_repeat	6880	6912	20.9	+	.	ID=110;Target "Motif:(CAGATC)n" 1 33
+seq00017565_SA2119.1	RepeatMasker	dispersed_repeat	12922	12959	12.1	+	.	ID=111;Target "Motif:(TTCTTT)n" 1 37
+seq00017565_SA2119.1	RepeatMasker	dispersed_repeat	14245	14308	28.1	+	.	ID=112;Target "Motif:(TTTAA)n" 1 63
+seq00017565_SA2119.1	RepeatMasker	dispersed_repeat	18786	18844	27.4	+	.	ID=113;Target "Motif:(ATATATA)n" 1 60
+seq00017565_SA2119.1	RepeatMasker	dispersed_repeat	21129	21167	15.1	+	.	ID=114;Target "Motif:(TTATA)n" 1 40
+##sequence-region seq00017683_SA2119.1 1 1241
+seq00017683_SA2119.1	RepeatMasker	dispersed_repeat	346	409	19.4	+	.	ID=115;Target "Motif:(ATTTT)n" 1 63
+##sequence-region seq00017827_SA2119.1 1 1419
+seq00017827_SA2119.1	RepeatMasker	dispersed_repeat	864	921	19.7	+	.	ID=116;Target "Motif:(TTTTTGA)n" 1 61
+##sequence-region seq00018332_SA2119.1 1 1457
+seq00018332_SA2119.1	RepeatMasker	dispersed_repeat	577	614	 9.1	+	.	ID=117;Target "Motif:(TCGCAAT)n" 1 41
+##sequence-region seq00019579_SA1517.1 1 1283
+seq00019579_SA1517.1	RepeatMasker	dispersed_repeat	1026	1069	12.9	+	.	ID=118;Target "Motif:(AGTTTAT)n" 1 47
+##sequence-region seq00019649_SA1517.1 1 2096
+seq00019649_SA1517.1	RepeatMasker	dispersed_repeat	118	152	23.9	+	.	ID=119;Target "Motif:(ATCAAC)n" 1 35
+##sequence-region seq00020198_SA1517.1 1 5428
+seq00020198_SA1517.1	RepeatMasker	dispersed_repeat	1	47	 0.0	+	.	ID=120;Target "Motif:(CCAGCACCA)n" 1 47
+seq00020198_SA1517.1	RepeatMasker	dispersed_repeat	1803	1858	17.2	+	.	ID=121;Target "Motif:(CGTGCGG)n" 1 58
+seq00020198_SA1517.1	RepeatMasker	dispersed_repeat	2985	3011	16.9	+	.	ID=122;Target "Motif:(CGA)n" 1 27
+seq00020198_SA1517.1	RepeatMasker	dispersed_repeat	3503	3543	16.4	+	.	ID=123;Target "Motif:(CGGTGA)n" 1 41
+seq00020198_SA1517.1	RepeatMasker	dispersed_repeat	4173	4217	20.4	+	.	ID=124;Target "Motif:(CGCGCA)n" 1 45
+seq00020198_SA1517.1	RepeatMasker	dispersed_repeat	4423	4474	 5.0	+	.	ID=125;Target "Motif:(ACCCG)n" 1 50
+seq00020198_SA1517.1	RepeatMasker	dispersed_repeat	5370	5409	10.7	+	.	ID=126;Target "Motif:(CACAG)n" 1 44
+##sequence-region seq00020221_SA1517.1 1 1869
+seq00020221_SA1517.1	RepeatMasker	dispersed_repeat	1477	1528	25.4	+	.	ID=127;Target "Motif:(AAGGCT)n" 1 49
+##sequence-region seq00020235_SA2119.1 1 1129
+seq00020235_SA2119.1	RepeatMasker	dispersed_repeat	986	1032	11.0	+	.	ID=128;Target "Motif:(TTTCGA)n" 1 45
+##sequence-region seq00020463_SA2119.1 1 2798
+seq00020463_SA2119.1	RepeatMasker	dispersed_repeat	1521	1557	14.9	+	.	ID=129;Target "Motif:(ATTTTTC)n" 1 40
+##sequence-region seq00021007_SA1517.1 1 1717
+seq00021007_SA1517.1	RepeatMasker	dispersed_repeat	1383	1437	26.9	+	.	ID=130;Target "Motif:A-rich" 1 55
+##sequence-region seq00021031_SA1517.1 1 1498
+seq00021031_SA1517.1	RepeatMasker	dispersed_repeat	21	58	24.7	+	.	ID=131;Target "Motif:(TTTA)n" 1 38
+seq00021031_SA1517.1	RepeatMasker	dispersed_repeat	1126	1199	28.0	+	.	ID=132;Target "Motif:(TTTA)n" 1 71
+##sequence-region seq00021113_SA1517.1 1 2032
+seq00021113_SA1517.1	RepeatMasker	dispersed_repeat	523	582	12.9	+	.	ID=133;Target "Motif:(GAGATTA)n" 1 64
+seq00021113_SA1517.1	RepeatMasker	dispersed_repeat	621	687	 4.9	+	.	ID=134;Target "Motif:(TCTAACG)n" 1 68
+seq00021113_SA1517.1	RepeatMasker	dispersed_repeat	1729	1764	18.9	+	.	ID=135;Target "Motif:A-rich" 1 36
+seq00021113_SA1517.1	RepeatMasker	dispersed_repeat	1806	1859	 7.8	+	.	ID=136;Target "Motif:(AACGTCT)n" 1 58
+##sequence-region seq00021183_SA1517.1 1 1188
+seq00021183_SA1517.1	RepeatMasker	dispersed_repeat	4	35	22.1	+	.	ID=137;Target "Motif:(TAACAA)n" 1 32
+##sequence-region seq00021289_SA1517.1 1 1272
+seq00021289_SA1517.1	RepeatMasker	dispersed_repeat	158	181	13.9	+	.	ID=138;Target "Motif:(T)n" 1 24
+seq00021289_SA1517.1	RepeatMasker	dispersed_repeat	303	334	17.5	+	.	ID=139;Target "Motif:(TATATT)n" 1 33
+##sequence-region seq00022114_SA1517.1 1 7336
+seq00022114_SA1517.1	RepeatMasker	dispersed_repeat	1241	1270	 7.0	+	.	ID=140;Target "Motif:(TTAT)n" 1 32
+##sequence-region seq00022150_SA2034.1 1 4573
+seq00022150_SA2034.1	RepeatMasker	dispersed_repeat	2720	2753	13.8	+	.	ID=141;Target "Motif:(GTATTA)n" 1 33
+##sequence-region seq00022444_SA1517.1 1 32137
+seq00022444_SA1517.1	RepeatMasker	dispersed_repeat	22175	22252	23.2	-	.	ID=142;Target "Motif:AmnSINE2" 168 247
+seq00022444_SA1517.1	RepeatMasker	dispersed_repeat	25299	25346	 0.0	+	.	ID=143;Target "Motif:(A)n" 1 48
+seq00022444_SA1517.1	RepeatMasker	dispersed_repeat	27095	27127	14.4	+	.	ID=144;Target "Motif:(TTCTCT)n" 1 32
+##sequence-region seq00022477_SA1517.1 1 4666
+seq00022477_SA1517.1	RepeatMasker	dispersed_repeat	2562	2631	32.7	+	.	ID=145;Target "Motif:(AATAAT)n" 1 69
+##sequence-region seq00022564_SA1517.1 1 1618
+seq00022564_SA1517.1	RepeatMasker	dispersed_repeat	147	180	10.1	+	.	ID=146;Target "Motif:(CCGTCT)n" 1 35
+##sequence-region seq00022577_SA1517.1 1 3562
+seq00022577_SA1517.1	RepeatMasker	dispersed_repeat	1338	1383	15.2	+	.	ID=147;Target "Motif:(AATTTTTC)n" 1 49
+##sequence-region seq00022588_SA1517.1 1 12812
+seq00022588_SA1517.1	RepeatMasker	dispersed_repeat	549	606	 1.9	+	.	ID=148;Target "Motif:(GTATCATTTG)n" 1 56
+seq00022588_SA1517.1	RepeatMasker	dispersed_repeat	3523	3543	 0.0	+	.	ID=149;Target "Motif:(AT)n" 1 22
+seq00022588_SA1517.1	RepeatMasker	dispersed_repeat	9736	9780	18.3	+	.	ID=150;Target "Motif:(CCTTAT)n" 1 46
+seq00022588_SA1517.1	RepeatMasker	dispersed_repeat	10162	10185	 0.0	+	.	ID=151;Target "Motif:(T)n" 1 24
+##sequence-region seq00022633_SA1517.1 1 2104
+seq00022633_SA1517.1	RepeatMasker	dispersed_repeat	1021	1071	25.6	+	.	ID=152;Target "Motif:A-rich" 1 50
+seq00022633_SA1517.1	RepeatMasker	dispersed_repeat	1606	1658	24.3	+	.	ID=153;Target "Motif:(ATAATG)n" 1 56
+##sequence-region seq00023250_SA1517.1 1 6392
+seq00023250_SA1517.1	RepeatMasker	dispersed_repeat	3688	3721	 0.0	+	.	ID=154;Target "Motif:(A)n" 1 34
+##sequence-region seq00023678_SA1517.1 1 1346
+seq00023678_SA1517.1	RepeatMasker	dispersed_repeat	1279	1317	17.2	+	.	ID=155;Target "Motif:A-rich" 1 41
+##sequence-region seq00023936_SA2119.1 1 1201
+seq00023936_SA2119.1	RepeatMasker	dispersed_repeat	648	668	 0.0	+	.	ID=156;Target "Motif:(T)n" 1 21
+##sequence-region seq00023938_SA2119.1 1 1139
+seq00023938_SA2119.1	RepeatMasker	dispersed_repeat	1048	1056	18.4	+	.	ID=157;Target "Motif:(AGGATA)n" 1 61
+seq00023938_SA2119.1	RepeatMasker	dispersed_repeat	1057	1102	14.2	+	.	ID=158;Target "Motif:A-rich" 1 44
+##sequence-region seq00023999_SA2119.1 1 1787
+seq00023999_SA2119.1	RepeatMasker	dispersed_repeat	1117	1138	 0.0	+	.	ID=159;Target "Motif:(T)n" 1 22
+seq00023999_SA2119.1	RepeatMasker	dispersed_repeat	1286	1325	17.0	+	.	ID=160;Target "Motif:(CGCAGG)n" 1 43
+##sequence-region seq00024257_SA2119.1 1 1078
+seq00024257_SA2119.1	RepeatMasker	dispersed_repeat	539	597	17.9	+	.	ID=161;Target "Motif:(TTGTCC)n" 1 63
+##sequence-region seq00024290_SA2119.1 1 1343
+seq00024290_SA2119.1	RepeatMasker	dispersed_repeat	921	986	19.6	+	.	ID=162;Target "Motif:(AAT)n" 1 64
+##sequence-region seq00024313_SA1517.1 1 1266
+seq00024313_SA1517.1	RepeatMasker	dispersed_repeat	172	220	16.9	+	.	ID=163;Target "Motif:(ACTTCTA)n" 1 49
+##sequence-region seq00024393_SA2119.1 1 1675
+seq00024393_SA2119.1	RepeatMasker	dispersed_repeat	205	239	11.1	+	.	ID=164;Target "Motif:(TTCCTT)n" 1 32
+##sequence-region seq00024450_SA2119.1 1 1785
+seq00024450_SA2119.1	RepeatMasker	dispersed_repeat	5	64	34.3	+	.	ID=165;Target "Motif:(AATATCA)n" 1 59
+##sequence-region seq00024616_SA2119.1 1 1186
+seq00024616_SA2119.1	RepeatMasker	dispersed_repeat	750	780	14.5	+	.	ID=166;Target "Motif:(CAGCCT)n" 1 32
+##sequence-region seq00024860_SA1517.1 1 1611
+seq00024860_SA1517.1	RepeatMasker	dispersed_repeat	760	792	14.4	+	.	ID=167;Target "Motif:(TTACTT)n" 1 33
+##sequence-region seq00024861_SA1517.1 1 2259
+seq00024861_SA1517.1	RepeatMasker	dispersed_repeat	711	759	23.1	+	.	ID=168;Target "Motif:(ATTA)n" 1 48
+##sequence-region seq00025286_SA1517.1 1 1702
+seq00025286_SA1517.1	RepeatMasker	dispersed_repeat	996	1025	 7.5	+	.	ID=169;Target "Motif:(TTGCG)n" 1 31
+##sequence-region seq00026959_SA2119.1 1 1530
+seq00026959_SA2119.1	RepeatMasker	dispersed_repeat	585	613	11.2	+	.	ID=170;Target "Motif:(AGCTA)n" 1 31
+##sequence-region seq00027631_SA1517.1 1 3315
+seq00027631_SA1517.1	RepeatMasker	dispersed_repeat	1064	1117	19.0	+	.	ID=171;Target "Motif:(TTAGACA)n" 1 54
+seq00027631_SA1517.1	RepeatMasker	dispersed_repeat	1183	1230	 2.3	+	.	ID=172;Target "Motif:(GTCTAAC)n" 1 48
+##sequence-region seq00028100_SA1517.1 1 1467
+seq00028100_SA1517.1	RepeatMasker	dispersed_repeat	678	711	13.6	+	.	ID=173;Target "Motif:(TCATCG)n" 1 34
+##sequence-region seq00028386_SA2119.1 1 11710
+seq00028386_SA2119.1	RepeatMasker	dispersed_repeat	169	245	25.1	+	.	ID=174;Target "Motif:(TAATATA)n" 1 80
+seq00028386_SA2119.1	RepeatMasker	dispersed_repeat	3808	3852	15.4	+	.	ID=175;Target "Motif:(CTATAT)n" 1 48
+seq00028386_SA2119.1	RepeatMasker	dispersed_repeat	5235	5270	22.6	+	.	ID=176;Target "Motif:(T)n" 1 36
+seq00028386_SA2119.1	RepeatMasker	dispersed_repeat	5716	5768	20.9	+	.	ID=177;Target "Motif:(TATTATT)n" 1 53
+##sequence-region seq00028387_SA2119.1 1 27218
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	2427	2474	30.7	+	.	ID=178;Target "Motif:A-rich" 1 48
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	6389	6415	16.6	+	.	ID=179;Target "Motif:A-rich" 1 27
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	6912	6957	23.8	+	.	ID=180;Target "Motif:(ATAGAT)n" 1 46
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	11321	11351	11.1	+	.	ID=181;Target "Motif:(TATT)n" 1 31
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	12743	12781	21.0	+	.	ID=182;Target "Motif:A-rich" 1 41
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	15804	15860	24.1	+	.	ID=183;Target "Motif:(ATA)n" 1 57
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	20131	20198	21.7	+	.	ID=184;Target "Motif:(AAT)n" 1 65
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	20329	20353	13.2	+	.	ID=185;Target "Motif:(ATT)n" 1 25
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	20588	20629	19.9	+	.	ID=186;Target "Motif:(AAGCTA)n" 1 42
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	22399	22475	19.6	+	.	ID=187;Target "Motif:(TTAGAA)n" 1 79
+seq00028387_SA2119.1	RepeatMasker	dispersed_repeat	22446	22516	21.7	+	.	ID=188;Target "Motif:(AATG)n" 1 73
+##sequence-region seq00028612_SA2119.1 1 5270
+seq00028612_SA2119.1	RepeatMasker	dispersed_repeat	3285	3322	 6.5	+	.	ID=189;Target "Motif:(ATAA)n" 1 37
+seq00028612_SA2119.1	RepeatMasker	dispersed_repeat	3368	3389	 9.8	+	.	ID=190;Target "Motif:(AACA)n" 1 22
+seq00028612_SA2119.1	RepeatMasker	dispersed_repeat	3465	3508	16.9	+	.	ID=191;Target "Motif:A-rich" 1 43
+##sequence-region seq00028715_SA2119.1 1 29031
+seq00028715_SA2119.1	RepeatMasker	dispersed_repeat	16926	17000	24.8	+	.	ID=192;Target "Motif:(TTTAA)n" 1 75
+seq00028715_SA2119.1	RepeatMasker	dispersed_repeat	20329	20367	19.3	+	.	ID=193;Target "Motif:(AACTA)n" 1 37
+seq00028715_SA2119.1	RepeatMasker	dispersed_repeat	22788	22827	20.0	+	.	ID=194;Target "Motif:A-rich" 1 42
+seq00028715_SA2119.1	RepeatMasker	dispersed_repeat	23922	23956	19.9	+	.	ID=195;Target "Motif:(GCTTCA)n" 1 35
+seq00028715_SA2119.1	RepeatMasker	dispersed_repeat	26465	26495	 6.9	+	.	ID=196;Target "Motif:(TCGCTA)n" 1 34
+##sequence-region seq00028864_SA1517.1 1 28277
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	225	281	11.4	+	.	ID=197;Target "Motif:(CTTTTT)n" 1 60
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	977	1038	21.8	+	.	ID=198;Target "Motif:(TTTAT)n" 1 63
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	1398	1423	 8.2	+	.	ID=199;Target "Motif:(TTTCT)n" 1 27
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	2006	2046	17.5	+	.	ID=200;Target "Motif:(TTTCTTC)n" 1 42
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	3773	3808	13.7	+	.	ID=201;Target "Motif:(ATTT)n" 1 35
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	7676	7710	13.2	+	.	ID=202;Target "Motif:(AATATT)n" 1 36
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	15136	15170	14.3	-	.	ID=203;Target "Motif:X6B_LINE" 163 199
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	18828	18875	25.7	+	.	ID=204;Target "Motif:(ATT)n" 1 48
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	22572	22644	26.4	+	.	ID=205;Target "Motif:(TTATA)n" 1 72
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	23100	23164	23.5	+	.	ID=206;Target "Motif:(TTTCT)n" 1 63
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	24059	24164	25.6	+	.	ID=207;Target "Motif:(TTTCT)n" 1 103
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	24139	24187	18.2	+	.	ID=208;Target "Motif:(TATCTG)n" 1 46
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	24210	24269	19.5	+	.	ID=209;Target "Motif:(TCATCT)n" 1 63
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	26958	27007	23.6	+	.	ID=210;Target "Motif:(TTACT)n" 1 52
+seq00028864_SA1517.1	RepeatMasker	dispersed_repeat	28168	28276	26.9	+	.	ID=211;Target "Motif:A-rich" 1 106
+##sequence-region seq00029042_SA2119.1 1 1400
+seq00029042_SA2119.1	RepeatMasker	dispersed_repeat	689	723	19.5	+	.	ID=212;Target "Motif:A-rich" 1 35
+##sequence-region seq00029135_SA1517.1 1 1998
+seq00029135_SA1517.1	RepeatMasker	dispersed_repeat	1886	1904	 5.5	+	.	ID=213;Target "Motif:(C)n" 1 19
+##sequence-region seq00029344_SA1517.1 1 109338
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	297	357	24.7	+	.	ID=214;Target "Motif:A-rich" 1 60
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	1277	1374	28.9	+	.	ID=215;Target "Motif:(TC)n" 1 141
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	1375	1425	21.2	+	.	ID=216;Target "Motif:(CAACT)n" 1 53
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	1426	1438	28.9	+	.	ID=215;Target "Motif:(TC)n" 142 162
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	2436	2471	13.6	+	.	ID=217;Target "Motif:(AATATA)n" 1 35
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	2767	2799	21.3	+	.	ID=218;Target "Motif:(T)n" 1 33
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	2843	2908	24.1	+	.	ID=219;Target "Motif:A-rich" 1 67
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	3568	3606	15.8	+	.	ID=220;Target "Motif:A-rich" 1 37
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	7315	7381	21.8	+	.	ID=221;Target "Motif:(TATTA)n" 1 68
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	10893	10968	23.5	+	.	ID=222;Target "Motif:(ATTTT)n" 1 74
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	11104	11149	27.2	+	.	ID=223;Target "Motif:(TTGTTT)n" 1 45
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	12968	13043	34.5	+	.	ID=224;Target "Motif:(TTT)n" 1 76
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	15521	15527	25.6	+	.	ID=225;Target "Motif:(TTTTTTA)n" 1 19
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	15528	15556	19.9	+	.	ID=226;Target "Motif:(T)n" 1 29
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	15557	15562	25.6	+	.	ID=225;Target "Motif:(TTTTTTA)n" 20 43
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	18332	18391	18.7	+	.	ID=227;Target "Motif:A-rich" 1 58
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	18806	18859	20.5	+	.	ID=228;Target "Motif:(TAATTTT)n" 1 53
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	22750	22816	26.2	+	.	ID=229;Target "Motif:(TAAT)n" 1 68
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	26359	26406	21.9	+	.	ID=230;Target "Motif:(TTTCTTT)n" 1 45
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	29341	29373	18.4	+	.	ID=231;Target "Motif:A-rich" 1 32
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	29529	29570	23.3	+	.	ID=232;Target "Motif:(TTGTTTC)n" 1 41
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	31309	31369	24.5	+	.	ID=233;Target "Motif:(TAATTT)n" 1 61
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	31464	31501	23.0	+	.	ID=234;Target "Motif:(TTC)n" 1 37
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	36357	36409	32.6	+	.	ID=235;Target "Motif:(TT)n" 1 53
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	36921	36985	28.2	+	.	ID=236;Target "Motif:(AATAAT)n" 1 63
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	41527	41602	20.9	+	.	ID=237;Target "Motif:(TTTTATT)n" 1 68
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	44347	44384	21.1	+	.	ID=238;Target "Motif:(T)n" 1 38
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	44880	44920	11.0	+	.	ID=239;Target "Motif:(TTTA)n" 1 44
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	47887	47934	19.7	+	.	ID=240;Target "Motif:(TTATTG)n" 1 50
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	49292	49386	33.7	+	.	ID=241;Target "Motif:(TTACCA)n" 1 95
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	53526	53579	18.2	+	.	ID=242;Target "Motif:A-rich" 1 55
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	62007	62088	26.2	+	.	ID=243;Target "Motif:A-rich" 1 77
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	63751	63782	10.8	+	.	ID=244;Target "Motif:(TTA)n" 1 31
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	65049	65109	31.0	+	.	ID=245;Target "Motif:(TTTAA)n" 1 61
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	67230	67298	36.7	+	.	ID=246;Target "Motif:(TT)n" 1 69
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	70272	70360	27.1	+	.	ID=247;Target "Motif:(TTAATTT)n" 1 89
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	73701	73745	15.4	+	.	ID=248;Target "Motif:(TTCTTT)n" 1 45
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	79034	79071	18.9	+	.	ID=249;Target "Motif:(TTAT)n" 1 38
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	85863	85902	23.4	+	.	ID=250;Target "Motif:(T)n" 1 40
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	86035	86103	28.7	+	.	ID=251;Target "Motif:(CTTTTT)n" 1 66
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	86690	86735	23.9	+	.	ID=252;Target "Motif:(TTC)n" 1 46
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	87759	87798	20.1	+	.	ID=253;Target "Motif:A-rich" 1 40
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	89544	89595	27.6	+	.	ID=254;Target "Motif:A-rich" 1 54
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	91511	91613	23.6	+	.	ID=255;Target "Motif:A-rich" 1 100
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	92287	92328	14.5	+	.	ID=256;Target "Motif:A-rich" 1 41
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	92531	92579	29.7	+	.	ID=257;Target "Motif:GA-rich" 1 50
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	93531	93599	27.4	+	.	ID=258;Target "Motif:A-rich" 1 66
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	94020	94076	28.0	+	.	ID=259;Target "Motif:(GAATAA)n" 1 54
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	96017	96074	23.6	+	.	ID=260;Target "Motif:(AAT)n" 1 57
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	97935	97983	22.1	+	.	ID=261;Target "Motif:(TTTTAT)n" 1 49
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	98355	98416	27.5	+	.	ID=262;Target "Motif:(AATAT)n" 1 60
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	100572	100636	27.7	+	.	ID=263;Target "Motif:A-rich" 1 65
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	103167	103225	11.4	+	.	ID=264;Target "Motif:A-rich" 1 53
+seq00029344_SA1517.1	RepeatMasker	dispersed_repeat	106642	106686	16.2	+	.	ID=265;Target "Motif:(AATA)n" 1 44
+##sequence-region seq00029347_SA1517.1 1 159696
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	272	304	 6.8	+	.	ID=266;Target "Motif:(TTTC)n" 1 35
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	2792	2832	15.9	+	.	ID=267;Target "Motif:(TTTTAA)n" 1 38
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	3141	3211	25.9	+	.	ID=268;Target "Motif:(TTTATT)n" 1 72
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	4560	4632	24.3	+	.	ID=269;Target "Motif:(TTTTTCT)n" 1 70
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	7727	7770	31.1	+	.	ID=270;Target "Motif:(TATTT)n" 1 44
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	8368	8416	21.3	+	.	ID=271;Target "Motif:(TTTTACT)n" 1 46
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	9154	9218	22.0	+	.	ID=272;Target "Motif:(GTTT)n" 1 63
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	10372	10408	15.8	+	.	ID=273;Target "Motif:(TTCTT)n" 1 36
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	11387	11442	20.5	+	.	ID=274;Target "Motif:A-rich" 1 58
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	12139	12215	33.9	+	.	ID=275;Target "Motif:(TTCT)n" 1 78
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	12333	12370	17.8	+	.	ID=276;Target "Motif:(ATTATTC)n" 1 39
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	19303	19351	21.1	+	.	ID=277;Target "Motif:(TTTTTTC)n" 1 51
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	20194	20233	23.3	+	.	ID=278;Target "Motif:(T)n" 1 40
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	21753	21808	20.4	+	.	ID=279;Target "Motif:(ATTTTTC)n" 1 55
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	21786	21822	18.4	+	.	ID=280;Target "Motif:(TTTCTTT)n" 1 38
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	23486	23546	21.5	+	.	ID=281;Target "Motif:(TATT)n" 1 58
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	24017	24137	25.6	+	.	ID=282;Target "Motif:(TTC)n" 1 124
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	25064	25113	24.3	+	.	ID=283;Target "Motif:(TTTC)n" 1 50
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	25114	25145	29.5	+	.	ID=284;Target "Motif:(TTTTAT)n" 3 86
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	31715	31748	24.3	+	.	ID=285;Target "Motif:(ATTACT)n" 1 34
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	32589	32636	15.7	+	.	ID=286;Target "Motif:(TTTTTA)n" 1 45
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	33088	33159	20.0	+	.	ID=287;Target "Motif:(TTTATA)n" 1 74
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	33382	33456	23.9	+	.	ID=288;Target "Motif:(TTATTT)n" 1 78
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	35329	35374	13.6	+	.	ID=289;Target "Motif:(TTATTTT)n" 1 43
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	36837	36904	26.6	+	.	ID=290;Target "Motif:(TTTATC)n" 1 66
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	38173	38223	21.3	+	.	ID=291;Target "Motif:(TATATCT)n" 1 47
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	39231	39268	 9.4	+	.	ID=292;Target "Motif:A-rich" 1 38
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	40614	40650	18.4	+	.	ID=293;Target "Motif:(TTTC)n" 1 38
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	40641	40680	16.3	+	.	ID=294;Target "Motif:(TTTATA)n" 1 37
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	41851	41883	17.0	+	.	ID=295;Target "Motif:(TTCTTT)n" 1 33
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	42551	42610	22.6	+	.	ID=296;Target "Motif:(TTCT)n" 1 58
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	43602	43703	23.1	+	.	ID=297;Target "Motif:(TTTATA)n" 1 99
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	44278	44318	12.3	+	.	ID=298;Target "Motif:(TAACAT)n" 1 39
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	45935	45965	18.4	+	.	ID=299;Target "Motif:(TTATTT)n" 1 31
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	46759	46787	19.9	+	.	ID=300;Target "Motif:(TTTTC)n" 1 29
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	48716	48872	25.2	+	.	ID=301;Target "Motif:(TTTCTT)n" 1 144
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	49593	49648	23.1	+	.	ID=302;Target "Motif:(CTTTTT)n" 1 53
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	50878	50916	21.3	+	.	ID=303;Target "Motif:A-rich" 1 39
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	50940	50974	19.5	+	.	ID=304;Target "Motif:(TATTGT)n" 1 35
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	51096	51137	25.3	+	.	ID=305;Target "Motif:(CATTT)n" 1 43
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	53253	53296	27.3	+	.	ID=306;Target "Motif:(CATTT)n" 1 45
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	53996	54111	29.0	+	.	ID=307;Target "Motif:(TCT)n" 1 118
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	55239	55284	23.9	+	.	ID=308;Target "Motif:A-rich" 1 46
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	56221	56263	14.8	+	.	ID=309;Target "Motif:(TTTATTC)n" 1 40
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	56731	56780	23.9	+	.	ID=310;Target "Motif:A-rich" 1 47
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	59177	59229	18.3	+	.	ID=311;Target "Motif:(TTCATT)n" 1 54
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	59805	59866	31.6	+	.	ID=312;Target "Motif:(TT)n" 1 62
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	67818	67845	 7.7	+	.	ID=313;Target "Motif:(TTTTC)n" 1 29
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	68364	68395	10.0	+	.	ID=314;Target "Motif:(TTCT)n" 1 34
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	70178	70222	18.3	+	.	ID=315;Target "Motif:(TTTTTTA)n" 1 44
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	70282	70370	39.0	+	.	ID=316;Target "Motif:(TTT)n" 1 89
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	71263	71327	23.9	+	.	ID=317;Target "Motif:(ATATTC)n" 1 59
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	71349	71428	26.6	+	.	ID=318;Target "Motif:(TTTCTT)n" 1 81
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	73229	73262	20.1	+	.	ID=319;Target "Motif:(ATTT)n" 1 35
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	73531	73568	18.9	+	.	ID=320;Target "Motif:(TAGCTT)n" 1 37
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	73558	73603	18.0	+	.	ID=321;Target "Motif:(TTCT)n" 1 46
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	74173	74205	14.3	+	.	ID=322;Target "Motif:(TA)n" 1 33
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	77077	77116	21.1	+	.	ID=323;Target "Motif:(TTAACTT)n" 1 39
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	77527	77563	26.3	+	.	ID=324;Target "Motif:(TTTTAC)n" 1 37
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	79042	79100	23.2	+	.	ID=325;Target "Motif:(CTTT)n" 1 59
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	79981	80024	13.7	+	.	ID=326;Target "Motif:(TTCTTTT)n" 1 43
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	80608	80643	 6.5	+	.	ID=327;Target "Motif:(TCTTT)n" 1 36
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	82768	82817	19.7	+	.	ID=328;Target "Motif:(TTATT)n" 1 48
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	85573	85602	14.7	+	.	ID=329;Target "Motif:(TCTAAT)n" 1 31
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	95470	95519	22.6	+	.	ID=330;Target "Motif:(TTAT)n" 1 49
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	95687	95770	18.0	+	.	ID=331;Target "Motif:(TTATAAT)n" 1 86
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	96264	96303	26.8	+	.	ID=332;Target "Motif:(TTA)n" 1 40
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	97674	97713	21.2	+	.	ID=333;Target "Motif:(ATT)n" 1 40
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	97977	98066	20.4	+	.	ID=334;Target "Motif:(TTCT)n" 1 82
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	98279	98319	16.3	+	.	ID=335;Target "Motif:(ATTCTCT)n" 1 44
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	100236	100272	12.6	+	.	ID=336;Target "Motif:(CTT)n" 1 37
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	101236	101274	21.9	+	.	ID=337;Target "Motif:(TAATA)n" 1 38
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	102472	102503	22.1	+	.	ID=338;Target "Motif:(CCGTCT)n" 1 32
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	103036	103108	25.1	+	.	ID=339;Target "Motif:(TTTC)n" 1 71
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	107452	107504	25.5	+	.	ID=340;Target "Motif:(TTTTAT)n" 1 50
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	109433	109476	13.6	+	.	ID=341;Target "Motif:(TTCT)n" 1 45
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	112076	112152	17.3	+	.	ID=342;Target "Motif:(ATT)n" 1 78
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	112868	112975	26.5	+	.	ID=343;Target "Motif:(ATTTTT)n" 1 106
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	119338	119373	12.8	+	.	ID=344;Target "Motif:A-rich" 1 36
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	121708	121742	15.9	+	.	ID=345;Target "Motif:A-rich" 1 36
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	122151	122226	20.6	+	.	ID=346;Target "Motif:(AAT)n" 1 78
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	124054	124092	24.0	+	.	ID=347;Target "Motif:A-rich" 1 40
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	124788	124866	28.0	+	.	ID=348;Target "Motif:A-rich" 1 77
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	126941	126976	22.5	+	.	ID=349;Target "Motif:A-rich" 1 36
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	127826	127901	28.4	+	.	ID=350;Target "Motif:(TTC)n" 1 76
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	133468	133538	28.4	+	.	ID=351;Target "Motif:A-rich" 1 68
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	134413	134439	12.0	+	.	ID=352;Target "Motif:(T)n" 1 27
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	134455	134509	19.1	+	.	ID=353;Target "Motif:A-rich" 1 51
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	134721	134817	18.0	+	.	ID=354;Target "Motif:A-rich" 1 96
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	136540	136637	27.9	+	.	ID=355;Target "Motif:A-rich" 1 100
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	137181	137226	20.9	+	.	ID=356;Target "Motif:(TATATTT)n" 1 46
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	138476	138535	19.6	+	.	ID=357;Target "Motif:A-rich" 1 63
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	141535	141577	25.9	+	.	ID=358;Target "Motif:(AGAATT)n" 1 42
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	145977	146012	10.7	+	.	ID=359;Target "Motif:(TTTAT)n" 1 33
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	147388	147477	21.7	+	.	ID=360;Target "Motif:A-rich" 1 92
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	148505	148547	20.5	+	.	ID=361;Target "Motif:A-rich" 1 41
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	148548	148563	15.4	+	.	ID=362;Target "Motif:(AAGAACA)n" 4 63
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	149537	149593	25.2	+	.	ID=363;Target "Motif:A-rich" 1 54
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	150675	150724	16.9	+	.	ID=364;Target "Motif:A-rich" 1 51
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	151250	151301	20.6	+	.	ID=365;Target "Motif:A-rich" 1 48
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	153584	153618	16.9	+	.	ID=366;Target "Motif:(TTTTAA)n" 1 34
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	154169	154224	31.7	+	.	ID=367;Target "Motif:(ATAA)n" 1 55
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	154369	154407	15.8	+	.	ID=368;Target "Motif:GA-rich" 1 38
+seq00029347_SA1517.1	RepeatMasker	dispersed_repeat	158781	158827	23.2	+	.	ID=369;Target "Motif:A-rich" 1 47
+##sequence-region seq00029349_SA1517.1 1 15946
+seq00029349_SA1517.1	RepeatMasker	dispersed_repeat	5442	5499	16.4	+	.	ID=370;Target "Motif:A-rich" 1 59
+seq00029349_SA1517.1	RepeatMasker	dispersed_repeat	6218	6368	27.2	+	.	ID=371;Target "Motif:A-rich" 1 151
+seq00029349_SA1517.1	RepeatMasker	dispersed_repeat	9299	9390	24.3	+	.	ID=372;Target "Motif:A-rich" 1 84
+seq00029349_SA1517.1	RepeatMasker	dispersed_repeat	10985	11044	21.2	+	.	ID=373;Target "Motif:A-rich" 1 54
+seq00029349_SA1517.1	RepeatMasker	dispersed_repeat	11361	11395	24.0	+	.	ID=374;Target "Motif:A-rich" 1 35
+seq00029349_SA1517.1	RepeatMasker	dispersed_repeat	14633	14722	20.3	+	.	ID=375;Target "Motif:A-rich" 1 86
+seq00029349_SA1517.1	RepeatMasker	dispersed_repeat	15243	15300	25.3	+	.	ID=376;Target "Motif:A-rich" 1 60
+##sequence-region seq00029426_SA2119.1 1 2539
+seq00029426_SA2119.1	RepeatMasker	dispersed_repeat	729	774	20.9	+	.	ID=377;Target "Motif:(TGAAGA)n" 1 46
+##sequence-region seq00029452_SA1517.1 1 2762
+seq00029452_SA1517.1	RepeatMasker	dispersed_repeat	259	299	14.8	+	.	ID=378;Target "Motif:(GTGTTA)n" 1 41
+seq00029452_SA1517.1	RepeatMasker	dispersed_repeat	1285	1327	19.3	+	.	ID=379;Target "Motif:(GATGTGA)n" 1 43
+##sequence-region seq00029528_SA2119.1 1 2726
+seq00029528_SA2119.1	RepeatMasker	dispersed_repeat	1402	1459	27.7	+	.	ID=380;Target "Motif:A-rich" 1 57
+##sequence-region seq00029959_SA2119.1 1 84680
+seq00029959_SA2119.1	RepeatMasker	dispersed_repeat	1	48	 0.0	+	.	ID=381;Target "Motif:(TATATAT)n" 1 48
+seq00029959_SA2119.1	RepeatMasker	dispersed_repeat	6300	6345	18.7	+	.	ID=382;Target "Motif:(AAGTAGA)n" 1 46
+seq00029959_SA2119.1	RepeatMasker	dispersed_repeat	36412	36471	17.6	-	.	ID=383;Target "Motif:MER4E1" 166 222
+seq00029959_SA2119.1	RepeatMasker	dispersed_repeat	76818	76905	34.8	+	.	ID=384;Target "Motif:(ATCATC)n" 1 88
+seq00029959_SA2119.1	RepeatMasker	dispersed_repeat	84633	84680	 0.0	+	.	ID=385;Target "Motif:(TATATAT)n" 1 48
+##sequence-region seq00030209_SA2034.1 1 18213
+seq00030209_SA2034.1	RepeatMasker	dispersed_repeat	3559	3586	12.6	+	.	ID=386;Target "Motif:(TTTTG)n" 1 27
+seq00030209_SA2034.1	RepeatMasker	dispersed_repeat	8999	9039	12.3	+	.	ID=387;Target "Motif:(GTATGCT)n" 1 39
+seq00030209_SA2034.1	RepeatMasker	dispersed_repeat	11327	11355	20.0	+	.	ID=388;Target "Motif:(ATATT)n" 1 29
+##sequence-region seq00030251_SA2119.1 1 2202
+seq00030251_SA2119.1	RepeatMasker	dispersed_repeat	2065	2107	22.7	+	.	ID=389;Target "Motif:(TA)n" 1 43
+##sequence-region seq00031042_SA2119.1 1 1944
+seq00031042_SA2119.1	RepeatMasker	dispersed_repeat	1137	1183	19.2	+	.	ID=390;Target "Motif:(AAT)n" 1 45
+##sequence-region seq00031488_SA1517.1 1 1333
+seq00031488_SA1517.1	RepeatMasker	dispersed_repeat	1191	1236	 8.8	+	.	ID=391;Target "Motif:(TCTTTA)n" 1 42
+##sequence-region seq00031495_SA1517.1 1 1628
+seq00031495_SA1517.1	RepeatMasker	dispersed_repeat	1034	1074	13.1	+	.	ID=392;Target "Motif:(CAG)n" 1 37
+##sequence-region seq00032353_SA2119.1 1 2511
+seq00032353_SA2119.1	RepeatMasker	dispersed_repeat	445	472	16.2	+	.	ID=393;Target "Motif:A-rich" 1 28
+seq00032353_SA2119.1	RepeatMasker	dispersed_repeat	2024	2112	20.6	+	.	ID=394;Target "Motif:(AAGCAAG)n" 1 90
+##sequence-region seq00032506_SA2119.1 1 1105
+seq00032506_SA2119.1	RepeatMasker	dispersed_repeat	587	618	 0.0	+	.	ID=395;Target "Motif:(T)n" 1 32
+##sequence-region seq00032568_SA2119.1 1 1038
+seq00032568_SA2119.1	RepeatMasker	dispersed_repeat	744	791	21.8	+	.	ID=396;Target "Motif:(GGCGCGG)n" 1 45
+##sequence-region seq00032727_SA2119.1 1 1433
+seq00032727_SA2119.1	RepeatMasker	dispersed_repeat	1297	1342	 8.8	+	.	ID=397;Target "Motif:(TCTTTA)n" 1 42
+##sequence-region seq00034006_SA1517.1 1 28519
+seq00034006_SA1517.1	RepeatMasker	dispersed_repeat	243	277	10.4	+	.	ID=398;Target "Motif:A-rich" 1 34
+seq00034006_SA1517.1	RepeatMasker	dispersed_repeat	909	948	27.1	+	.	ID=399;Target "Motif:(GATAAT)n" 1 40
+seq00034006_SA1517.1	RepeatMasker	dispersed_repeat	18455	18497	25.9	+	.	ID=400;Target "Motif:(AATATTT)n" 1 42
+seq00034006_SA1517.1	RepeatMasker	dispersed_repeat	22675	22696	 4.7	+	.	ID=401;Target "Motif:(AAAG)n" 1 23
+seq00034006_SA1517.1	RepeatMasker	dispersed_repeat	26971	27022	22.5	+	.	ID=402;Target "Motif:(TTTATTA)n" 1 50
+##sequence-region seq00034366_SA2119.1 1 1791
+seq00034366_SA2119.1	RepeatMasker	dispersed_repeat	1	41	 7.9	+	.	ID=403;Target "Motif:(CAAGACGGA)n" 1 41
+seq00034366_SA2119.1	RepeatMasker	dispersed_repeat	172	204	18.1	+	.	ID=404;Target "Motif:(TTGCTT)n" 1 32
+##sequence-region seq00034563_SA1517.1 1 2221
+seq00034563_SA1517.1	RepeatMasker	dispersed_repeat	1231	1269	14.9	+	.	ID=405;Target "Motif:(CGCATA)n" 1 40
+##sequence-region seq00034683_SA2119.1 1 1407
+seq00034683_SA2119.1	RepeatMasker	dispersed_repeat	1157	1183	12.2	+	.	ID=406;Target "Motif:(AAAT)n" 1 27
+##sequence-region seq00034772_SA1517.1 1 2920
+seq00034772_SA1517.1	RepeatMasker	dispersed_repeat	2875	2903	 7.8	+	.	ID=407;Target "Motif:(ATAAA)n" 1 29
+##sequence-region seq00035504_SA1517.1 1 46305
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	653	706	20.5	+	.	ID=408;Target "Motif:(AATTTT)n" 1 52
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	921	968	15.0	+	.	ID=409;Target "Motif:(TTTGT)n" 1 47
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	3507	3624	22.4	+	.	ID=410;Target "Motif:(TTTTC)n" 1 114
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	7769	7818	24.6	+	.	ID=411;Target "Motif:(TTTATTC)n" 1 51
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	20369	20398	14.7	+	.	ID=412;Target "Motif:(T)n" 1 30
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	25500	25530	14.2	+	.	ID=413;Target "Motif:(TATTT)n" 1 32
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	29336	29430	27.2	+	.	ID=414;Target "Motif:(TTTATA)n" 1 93
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	29431	29437	24.0	+	.	ID=415;Target "Motif:(TTTTATA)n" 2 106
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	32758	32793	15.4	+	.	ID=416;Target "Motif:(AGGTTC)n" 1 36
+seq00035504_SA1517.1	RepeatMasker	dispersed_repeat	45632	45670	20.5	+	.	ID=417;Target "Motif:MamSINE1" 233 271
+##sequence-region seq00035664_SA2119.1 1 1912
+seq00035664_SA2119.1	RepeatMasker	dispersed_repeat	1562	1583	10.0	+	.	ID=418;Target "Motif:(T)n" 1 22
+seq00035664_SA2119.1	RepeatMasker	dispersed_repeat	1584	1624	18.0	+	.	ID=419;Target "Motif:(ATTTT)n" 2 62
+##sequence-region seq00036149_SA1517.1 1 1015
+seq00036149_SA1517.1	RepeatMasker	dispersed_repeat	789	828	20.1	+	.	ID=420;Target "Motif:A-rich" 1 42
+seq00036149_SA1517.1	RepeatMasker	dispersed_repeat	851	886	15.6	+	.	ID=420;Target "Motif:A-rich" 1 38
+##sequence-region seq00036150_SA1517.1 1 78211
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	11788	11815	12.5	+	.	ID=421;Target "Motif:(TATC)n" 1 27
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	12879	12914	12.8	+	.	ID=422;Target "Motif:(GCTCTT)n" 1 36
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	18387	18427	 5.9	+	.	ID=423;Target "Motif:(TTATCT)n" 1 41
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	18836	18884	20.3	+	.	ID=424;Target "Motif:(TTTGTCT)n" 1 47
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	20647	20701	22.7	+	.	ID=425;Target "Motif:(TCTTT)n" 1 54
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	20813	20850	15.3	+	.	ID=426;Target "Motif:(TTG)n" 1 38
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	25468	25514	24.4	+	.	ID=427;Target "Motif:(TTCCA)n" 1 45
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	30529	30549	 0.0	+	.	ID=428;Target "Motif:(TTAT)n" 1 22
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	31932	31981	14.9	+	.	ID=429;Target "Motif:(TTGCAT)n" 1 50
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	41384	41443	25.9	+	.	ID=430;Target "Motif:A-rich" 1 63
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	42296	42351	 2.0	+	.	ID=431;Target "Motif:(ATA)n" 1 58
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	42774	42824	21.9	+	.	ID=432;Target "Motif:A-rich" 1 51
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	44572	44610	11.8	+	.	ID=433;Target "Motif:A-rich" 1 41
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	45874	45925	21.1	+	.	ID=434;Target "Motif:tRNA-Asn-AAT" 8 59
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	47592	47633	17.7	+	.	ID=435;Target "Motif:(TTATA)n" 1 41
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	52177	52253	23.7	+	.	ID=436;Target "Motif:L3" 3713 3786
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	52804	52893	25.7	+	.	ID=437;Target "Motif:A-rich" 1 88
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	53189	53248	26.5	+	.	ID=438;Target "Motif:A-rich" 1 57
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	57107	57148	18.7	+	.	ID=439;Target "Motif:(AATAATT)n" 1 39
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	59921	59967	 9.9	+	.	ID=440;Target "Motif:(AATGATTA)n" 1 50
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	61608	61653	18.7	+	.	ID=441;Target "Motif:(AT)n" 1 46
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	63524	63552	20.4	+	.	ID=442;Target "Motif:A-rich" 1 29
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	64368	64415	17.1	+	.	ID=443;Target "Motif:A-rich" 1 49
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	64794	64829	 6.1	+	.	ID=444;Target "Motif:(ATGATT)n" 1 38
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	69866	69920	22.8	+	.	ID=445;Target "Motif:(AGAAT)n" 1 55
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	70191	70227	10.3	+	.	ID=446;Target "Motif:(ATTATG)n" 1 35
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	70719	70754	16.5	+	.	ID=447;Target "Motif:(ATATGTA)n" 1 36
+seq00036150_SA1517.1	RepeatMasker	dispersed_repeat	73372	73410	18.2	+	.	ID=448;Target "Motif:A-rich" 1 39
+##sequence-region seq00036577_SA1517.1 1 5017
+seq00036577_SA1517.1	RepeatMasker	dispersed_repeat	1709	1753	23.5	+	.	ID=449;Target "Motif:(TGG)n" 1 45
+##sequence-region seq00036869_SA1517.1 1 26073
+seq00036869_SA1517.1	RepeatMasker	dispersed_repeat	1842	1891	23.4	+	.	ID=450;Target "Motif:A-rich" 1 53
+seq00036869_SA1517.1	RepeatMasker	dispersed_repeat	3023	3047	 9.2	+	.	ID=451;Target "Motif:(TTCT)n" 1 24
+seq00036869_SA1517.1	RepeatMasker	dispersed_repeat	11017	11065	22.4	+	.	ID=452;Target "Motif:MIR3" 119 169
+seq00036869_SA1517.1	RepeatMasker	dispersed_repeat	11618	11665	13.5	+	.	ID=453;Target "Motif:(TTCAGC)n" 1 45
+##sequence-region seq00038416_SA2119.1 1 1238
+seq00038416_SA2119.1	RepeatMasker	dispersed_repeat	407	439	13.2	+	.	ID=454;Target "Motif:(CGCGAA)n" 1 35
+##sequence-region seq00038841_SA1517.1 1 242989
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	6502	6549	17.5	+	.	ID=455;Target "Motif:A-rich" 1 46
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	7035	7074	23.3	+	.	ID=456;Target "Motif:A-rich" 1 41
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	7671	7689	 0.0	+	.	ID=457;Target "Motif:(A)n" 1 19
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	7879	7918	17.7	+	.	ID=458;Target "Motif:(TATAA)n" 1 40
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	8343	8387	29.8	+	.	ID=459;Target "Motif:GA-rich" 1 45
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	16834	16894	28.4	+	.	ID=460;Target "Motif:(TTAATA)n" 1 60
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	17879	17931	29.7	+	.	ID=461;Target "Motif:(TCT)n" 1 53
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	18062	18103	22.2	+	.	ID=462;Target "Motif:(TCT)n" 1 43
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	19979	20024	18.7	+	.	ID=463;Target "Motif:(TTCA)n" 1 46
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	22021	22061	18.2	+	.	ID=464;Target "Motif:(TTTATC)n" 1 40
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	29948	30008	28.4	+	.	ID=465;Target "Motif:(TTAATA)n" 1 60
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	30154	30197	13.6	+	.	ID=466;Target "Motif:(GTTTA)n" 1 45
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	38552	38592	15.7	+	.	ID=467;Target "Motif:(TATTCT)n" 1 38
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	44047	44081	16.9	+	.	ID=468;Target "Motif:(TATTG)n" 1 35
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	44086	44119	 8.3	+	.	ID=469;Target "Motif:(CTT)n" 1 35
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	49499	49566	18.6	+	.	ID=470;Target "Motif:(ATTTATC)n" 1 66
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	54309	54387	26.5	+	.	ID=471;Target "Motif:(TATTTTC)n" 1 77
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	58374	58403	11.5	+	.	ID=472;Target "Motif:(TTTA)n" 1 30
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	60743	60766	 8.8	+	.	ID=473;Target "Motif:(TTCT)n" 1 25
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	65016	65059	24.0	+	.	ID=474;Target "Motif:(TCATCT)n" 1 44
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	75825	75882	15.3	+	.	ID=475;Target "Motif:(AGAACAT)n" 1 58
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	77143	77196	26.6	+	.	ID=476;Target "Motif:(TATTC)n" 1 57
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	78568	78612	19.9	+	.	ID=477;Target "Motif:(ATAATTT)n" 1 46
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	82035	82081	28.3	+	.	ID=478;Target "Motif:(TAATA)n" 1 48
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	83740	83772	 9.7	+	.	ID=479;Target "Motif:(TA)n" 1 36
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	84445	84485	18.2	+	.	ID=480;Target "Motif:(TAGAA)n" 1 40
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	85285	85361	21.0	+	.	ID=481;Target "Motif:A-rich" 1 71
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	91302	91382	22.9	+	.	ID=482;Target "Motif:(AT)n" 1 83
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	95088	95141	27.5	+	.	ID=483;Target "Motif:(TAT)n" 1 54
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	100373	100410	19.5	+	.	ID=484;Target "Motif:(TTC)n" 1 36
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	101703	101736	20.2	+	.	ID=485;Target "Motif:(TAATTA)n" 1 35
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	104196	104236	14.0	+	.	ID=486;Target "Motif:(TTC)n" 1 41
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	107152	107184	 0.0	+	.	ID=487;Target "Motif:(T)n" 1 33
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	107189	107241	17.5	+	.	ID=488;Target "Motif:A-rich" 1 54
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	119117	119156	17.7	+	.	ID=489;Target "Motif:A-rich" 1 40
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	123306	123345	12.7	+	.	ID=490;Target "Motif:GA-rich" 1 38
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	126219	126301	29.7	+	.	ID=491;Target "Motif:A-rich" 1 82
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	126428	126490	20.6	+	.	ID=492;Target "Motif:(ATA)n" 1 62
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	131447	131476	 7.5	+	.	ID=493;Target "Motif:GA-rich" 1 31
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	134406	134461	16.0	+	.	ID=494;Target "Motif:(AATATAT)n" 1 55
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	135785	135829	20.5	+	.	ID=495;Target "Motif:(AATATAT)n" 1 47
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	136458	136493	 5.8	+	.	ID=496;Target "Motif:A-rich" 1 41
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	139863	139931	10.4	+	.	ID=497;Target "Motif:(ATA)n" 1 70
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	142617	142701	20.1	+	.	ID=498;Target "Motif:(ATTTATT)n" 1 90
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	142669	142702	 9.4	+	.	ID=499;Target "Motif:(TATTA)n" 1 37
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	142703	142711	12.8	+	.	ID=500;Target "Motif:(TATA)n" 1 48
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	143431	143467	21.8	+	.	ID=501;Target "Motif:(TATACTA)n" 1 37
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	149291	149333	22.5	+	.	ID=502;Target "Motif:A-rich" 1 43
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	149508	149547	19.9	+	.	ID=503;Target "Motif:(TTCTTT)n" 1 40
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	149646	149677	17.9	+	.	ID=504;Target "Motif:A-rich" 1 32
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	154679	154717	16.0	+	.	ID=505;Target "Motif:(TATATTT)n" 1 38
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	158327	158358	10.8	+	.	ID=506;Target "Motif:(TTAT)n" 1 31
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	161615	161643	15.5	+	.	ID=507;Target "Motif:(ATTAT)n" 1 30
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	164576	164641	22.3	+	.	ID=508;Target "Motif:(TTAT)n" 1 65
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	164813	164918	26.7	+	.	ID=509;Target "Motif:MIRc" 80 185
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	171670	171740	21.0	+	.	ID=510;Target "Motif:A-rich" 1 72
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	175790	175828	13.1	+	.	ID=511;Target "Motif:(TTTATTA)n" 1 36
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	177559	177590	13.7	+	.	ID=512;Target "Motif:(TATAT)n" 1 34
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	180200	180236	18.6	+	.	ID=513;Target "Motif:(AATA)n" 1 38
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	183814	183868	25.8	+	.	ID=514;Target "Motif:(AGAAGT)n" 1 58
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	186370	186396	 8.5	+	.	ID=515;Target "Motif:(TTCT)n" 1 26
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	187031	187053	 5.0	+	.	ID=516;Target "Motif:(TTTC)n" 1 22
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	190396	190457	26.5	+	.	ID=517;Target "Motif:(CATATT)n" 1 62
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	202740	202775	12.9	+	.	ID=518;Target "Motif:(CTTAT)n" 1 37
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	207921	207946	 4.7	+	.	ID=519;Target "Motif:(TTAA)n" 1 24
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	216653	216683	10.5	+	.	ID=520;Target "Motif:(ATA)n" 1 32
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	218228	218261	14.8	+	.	ID=521;Target "Motif:(ATTATA)n" 1 32
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	218799	218846	15.7	+	.	ID=522;Target "Motif:(TATAT)n" 1 47
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	219064	219106	18.2	+	.	ID=523;Target "Motif:(ATGATA)n" 1 40
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	221212	221261	19.2	+	.	ID=524;Target "Motif:A-rich" 1 48
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	222254	222308	18.2	+	.	ID=525;Target "Motif:(AATAATA)n" 1 54
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	224076	224108	21.3	+	.	ID=526;Target "Motif:(TTTACC)n" 1 33
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	224298	224326	 7.8	+	.	ID=527;Target "Motif:(TTTTA)n" 1 29
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	239067	239114	17.5	+	.	ID=528;Target "Motif:A-rich" 1 46
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	239600	239639	23.3	+	.	ID=529;Target "Motif:A-rich" 1 41
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	240236	240254	 0.0	+	.	ID=530;Target "Motif:(A)n" 1 19
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	240444	240483	17.7	+	.	ID=531;Target "Motif:(TATAA)n" 1 40
+seq00038841_SA1517.1	RepeatMasker	dispersed_repeat	240908	240952	29.8	+	.	ID=532;Target "Motif:GA-rich" 1 45
+##sequence-region seq00038999_SA2119.1 1 1481
+seq00038999_SA2119.1	RepeatMasker	dispersed_repeat	746	798	13.3	+	.	ID=533;Target "Motif:A-rich" 1 53
+##sequence-region seq00039138_SA1517.1 1 20708
+seq00039138_SA1517.1	RepeatMasker	dispersed_repeat	5786	5843	18.9	+	.	ID=534;Target "Motif:(AATATA)n" 1 54
+seq00039138_SA1517.1	RepeatMasker	dispersed_repeat	13188	13220	21.3	+	.	ID=535;Target "Motif:A-rich" 1 33
+seq00039138_SA1517.1	RepeatMasker	dispersed_repeat	19441	19475	17.1	+	.	ID=536;Target "Motif:(TA)n" 1 35
+##sequence-region seq00039143_SA1517.1 1 5677
+seq00039143_SA1517.1	RepeatMasker	dispersed_repeat	455	495	 2.8	+	.	ID=537;Target "Motif:(AAAAAGA)n" 1 38
+seq00039143_SA1517.1	RepeatMasker	dispersed_repeat	777	814	24.8	+	.	ID=538;Target "Motif:GA-rich" 1 38
+seq00039143_SA1517.1	RepeatMasker	dispersed_repeat	1457	1491	11.2	+	.	ID=539;Target "Motif:(ATTAT)n" 1 32
+seq00039143_SA1517.1	RepeatMasker	dispersed_repeat	5580	5637	18.2	+	.	ID=540;Target "Motif:(GAT)n" 1 58
+##sequence-region seq00040467_SA2119.1 1 1659
+seq00040467_SA2119.1	RepeatMasker	dispersed_repeat	68	115	17.9	+	.	ID=541;Target "Motif:(AAGAAT)n" 1 46
+##sequence-region seq00040770_SA1517.1 1 1577
+seq00040770_SA1517.1	RepeatMasker	dispersed_repeat	111	133	 9.3	+	.	ID=542;Target "Motif:(CG)n" 1 23
+seq00040770_SA1517.1	RepeatMasker	dispersed_repeat	1111	1147	12.2	+	.	ID=543;Target "Motif:(CAC)n" 1 37
+##sequence-region seq00041056_SA2119.1 1 17405
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	821	852	13.9	+	.	ID=544;Target "Motif:(AATTT)n" 1 33
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	1746	1780	20.7	+	.	ID=545;Target "Motif:A-rich" 1 34
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	2050	2127	23.6	+	.	ID=546;Target "Motif:A-rich" 1 78
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	2415	2475	24.6	+	.	ID=547;Target "Motif:A-rich" 1 60
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	3530	3596	23.3	+	.	ID=548;Target "Motif:A-rich" 1 69
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	4204	4273	24.0	+	.	ID=549;Target "Motif:A-rich" 1 74
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	4516	4549	 9.5	+	.	ID=550;Target "Motif:(ATATATT)n" 1 36
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	4925	4972	18.8	+	.	ID=551;Target "Motif:(AGATTT)n" 1 46
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	5451	5507	20.8	+	.	ID=552;Target "Motif:(ATAGAT)n" 1 54
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	7693	7742	27.7	+	.	ID=553;Target "Motif:(TAT)n" 1 50
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	9006	9055	29.0	+	.	ID=554;Target "Motif:(AT)n" 1 51
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	10230	10265	 9.3	+	.	ID=555;Target "Motif:GA-rich" 1 37
+seq00041056_SA2119.1	RepeatMasker	dispersed_repeat	11690	11757	26.4	+	.	ID=556;Target "Motif:A-rich" 1 63
+##sequence-region seq00042209_SA2119.1 1 1133
+seq00042209_SA2119.1	RepeatMasker	dispersed_repeat	175	213	11.8	+	.	ID=557;Target "Motif:(TGCCGTAC)n" 1 41
+##sequence-region seq00044191_SA2119.1 1 38810
+seq00044191_SA2119.1	RepeatMasker	dispersed_repeat	2450	2496	 7.0	+	.	ID=558;Target "Motif:(TA)n" 1 46
+seq00044191_SA2119.1	RepeatMasker	dispersed_repeat	7839	7905	27.2	+	.	ID=559;Target "Motif:(AATACT)n" 1 66
+seq00044191_SA2119.1	RepeatMasker	dispersed_repeat	8356	8432	31.9	+	.	ID=560;Target "Motif:(TTTATCA)n" 1 79
+seq00044191_SA2119.1	RepeatMasker	dispersed_repeat	11806	11852	22.2	+	.	ID=561;Target "Motif:(AAT)n" 1 49
+seq00044191_SA2119.1	RepeatMasker	dispersed_repeat	18530	18568	19.4	+	.	ID=562;Target "Motif:(TTTTTAA)n" 1 37
+seq00044191_SA2119.1	RepeatMasker	dispersed_repeat	19911	19969	16.7	+	.	ID=563;Target "Motif:(TAT)n" 1 58
+seq00044191_SA2119.1	RepeatMasker	dispersed_repeat	38754	38795	22.0	+	.	ID=564;Target "Motif:(ATC)n" 1 42
+seq00044191_SA2119.1	RepeatMasker	dispersed_repeat	38796	38806	24.4	+	.	ID=565;Target "Motif:(ATCAAC)n" 1 56
+##sequence-region seq00045998_SA2119.1 1 2976
+seq00045998_SA2119.1	RepeatMasker	dispersed_repeat	431	472	17.3	+	.	ID=566;Target "Motif:A-rich" 1 43
+##sequence-region seq00046794_SA2119.1 1 11773
+seq00046794_SA2119.1	RepeatMasker	dispersed_repeat	4641	4682	15.2	+	.	ID=567;Target "Motif:(TATTA)n" 1 40
+seq00046794_SA2119.1	RepeatMasker	dispersed_repeat	10175	10204	11.6	+	.	ID=568;Target "Motif:(ATTA)n" 1 30
+##sequence-region seq00048133_SA2119.1 1 1869
+seq00048133_SA2119.1	RepeatMasker	dispersed_repeat	1029	1065	15.8	+	.	ID=569;Target "Motif:A-rich" 1 37
+##sequence-region seq00049459_SA2119.1 1 2167
+seq00049459_SA2119.1	RepeatMasker	dispersed_repeat	97	143	24.4	+	.	ID=570;Target "Motif:(GGCCGC)n" 1 45
+seq00049459_SA2119.1	RepeatMasker	dispersed_repeat	2090	2125	 6.1	+	.	ID=571;Target "Motif:(GACGCA)n" 1 39
+##sequence-region seq00049938_SA2119.1 1 1228
+seq00049938_SA2119.1	RepeatMasker	dispersed_repeat	40	73	20.2	+	.	ID=572;Target "Motif:A-rich" 1 34
+##sequence-region seq00056188_SA2119.1 1 2308
+seq00056188_SA2119.1	RepeatMasker	dispersed_repeat	1757	1802	18.0	+	.	ID=573;Target "Motif:A-rich" 1 45
+##sequence-region seq00056482_SA2119.1 1 2977
+seq00056482_SA2119.1	RepeatMasker	dispersed_repeat	1813	1838	 4.3	+	.	ID=574;Target "Motif:(TTCT)n" 1 26
+##sequence-region seq00058363_SA2119.1 1 133987
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	1758	1801	 7.9	+	.	ID=575;Target "Motif:(ACACAA)n" 1 45
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	10794	10831	 9.9	+	.	ID=576;Target "Motif:(AATATA)n" 1 36
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	20003	20050	22.4	+	.	ID=577;Target "Motif:(TTA)n" 1 48
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	24348	24397	29.9	+	.	ID=578;Target "Motif:(ATTACC)n" 1 50
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	26083	26092	31.3	+	.	ID=579;Target "Motif:(TATAA)n" 1 18
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	26093	26136	20.9	+	.	ID=580;Target "Motif:(TACAT)n" 1 44
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	26137	26168	31.3	+	.	ID=579;Target "Motif:(TATAA)n" 19 83
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	32073	32114	18.9	+	.	ID=581;Target "Motif:(TACAATA)n" 1 45
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	37764	37802	14.1	+	.	ID=582;Target "Motif:(AT)n" 1 42
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	38555	38583	11.3	+	.	ID=583;Target "Motif:(TTAT)n" 1 30
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	43441	43484	30.4	+	.	ID=584;Target "Motif:(TACCAT)n" 1 44
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	44585	44640	 7.4	+	.	ID=585;Target "Motif:(TATATG)n" 1 52
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	46219	46261	15.7	+	.	ID=586;Target "Motif:(AATATCT)n" 1 39
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	47223	47254	13.7	+	.	ID=587;Target "Motif:(GTTAA)n" 1 34
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	50404	50452	13.9	+	.	ID=588;Target "Motif:(ATACAGCA)n" 1 53
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	68385	68430	 2.2	+	.	ID=589;Target "Motif:(TTTGTGAAT)n" 1 46
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	69310	69356	14.0	+	.	ID=590;Target "Motif:(ACCACT)n" 1 53
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	89971	90028	17.2	+	.	ID=591;Target "Motif:(TA)n" 1 58
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	95733	95766	24.3	+	.	ID=592;Target "Motif:A-rich" 1 34
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	114642	114706	23.7	+	.	ID=593;Target "Motif:(TAA)n" 1 63
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	118832	118908	16.1	+	.	ID=594;Target "Motif:(TCA)n" 1 77
+seq00058363_SA2119.1	RepeatMasker	dispersed_repeat	122202	122275	 8.4	+	.	ID=595;Target "Motif:(TTACTA)n" 1 76
+##sequence-region seq00058366_SA2119.1 1 104002
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	5142	5175	20.6	+	.	ID=596;Target "Motif:(AATAT)n" 1 35
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	5936	5971	 9.7	+	.	ID=597;Target "Motif:(AACTAT)n" 1 38
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	6616	6683	18.0	+	.	ID=598;Target "Motif:(ACTATC)n" 1 70
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	10195	10246	11.0	+	.	ID=599;Target "Motif:(ACAATATT)n" 1 53
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	10801	10838	15.3	+	.	ID=600;Target "Motif:(ATCTAT)n" 1 39
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	11808	11841	12.8	+	.	ID=601;Target "Motif:(AACATC)n" 1 35
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	11842	11893	25.6	+	.	ID=602;Target "Motif:(TAACAT)n" 2 81
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	14869	14902	14.3	+	.	ID=603;Target "Motif:(CTTTTT)n" 1 33
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	19980	20035	22.2	+	.	ID=604;Target "Motif:(TTATAA)n" 1 56
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	22890	22921	10.7	+	.	ID=605;Target "Motif:(CAATAG)n" 1 32
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	23241	23298	20.9	+	.	ID=606;Target "Motif:L2" 1493 1547
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	28991	29037	21.7	-	.	ID=607;Target "Motif:X6A_LINE" 973 1021
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	37330	37373	 7.9	+	.	ID=608;Target "Motif:(ACACAA)n" 1 45
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	46366	46403	 9.9	+	.	ID=609;Target "Motif:(AATATA)n" 1 36
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	55575	55622	22.4	+	.	ID=610;Target "Motif:(TTA)n" 1 48
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	59920	59969	29.9	+	.	ID=611;Target "Motif:(ATTACC)n" 1 50
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	61655	61664	31.3	+	.	ID=612;Target "Motif:(TATAA)n" 1 18
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	61665	61708	20.9	+	.	ID=613;Target "Motif:(TACAT)n" 1 44
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	61709	61740	31.3	+	.	ID=612;Target "Motif:(TATAA)n" 19 83
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	67645	67686	18.9	+	.	ID=614;Target "Motif:(TACAATA)n" 1 45
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	73336	73374	14.1	+	.	ID=615;Target "Motif:(AT)n" 1 42
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	74127	74155	11.3	+	.	ID=616;Target "Motif:(TTAT)n" 1 30
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	79013	79056	30.4	+	.	ID=617;Target "Motif:(TACCAT)n" 1 44
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	80157	80212	 7.4	+	.	ID=618;Target "Motif:(TATATG)n" 1 52
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	81791	81833	15.7	+	.	ID=619;Target "Motif:(AATATCT)n" 1 39
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	82795	82826	13.7	+	.	ID=620;Target "Motif:(GTTAA)n" 1 34
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	85976	86024	13.9	+	.	ID=621;Target "Motif:(ATACAGCA)n" 1 53
+seq00058366_SA2119.1	RepeatMasker	dispersed_repeat	103957	104002	 2.2	+	.	ID=622;Target "Motif:(TTTGTGAAT)n" 1 46
+##sequence-region seq00060406_SA2119.1 1 4327
+seq00060406_SA2119.1	RepeatMasker	dispersed_repeat	431	466	10.0	+	.	ID=623;Target "Motif:(TTC)n" 1 36
+##sequence-region seq00060729_SA2119.1 1 230723
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	2848	2875	 4.0	+	.	ID=624;Target "Motif:(AATAG)n" 1 28
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	6396	6461	18.6	+	.	ID=625;Target "Motif:(ATTAAT)n" 1 61
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	7944	8003	25.1	+	.	ID=626;Target "Motif:(ATAATG)n" 1 60
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	12034	12079	15.8	+	.	ID=627;Target "Motif:(TAGAT)n" 1 47
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	14444	14494	21.3	+	.	ID=628;Target "Motif:(TATAT)n" 1 47
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	16796	16845	20.6	+	.	ID=629;Target "Motif:(ATAGAT)n" 1 48
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	18791	18840	18.8	+	.	ID=630;Target "Motif:(TA)n" 1 51
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	19288	19330	16.5	+	.	ID=631;Target "Motif:A-rich" 1 44
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	20101	20160	16.7	+	.	ID=632;Target "Motif:A-rich" 1 65
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	25212	25242	18.2	+	.	ID=633;Target "Motif:(TACAGA)n" 1 31
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	26143	26202	19.5	+	.	ID=634;Target "Motif:A-rich" 1 56
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	28811	28878	23.7	+	.	ID=635;Target "Motif:(AATAT)n" 1 68
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	30245	30312	23.0	+	.	ID=636;Target "Motif:(ATATA)n" 1 66
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	30991	31032	22.1	+	.	ID=637;Target "Motif:A-rich" 1 43
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	31489	31529	21.9	+	.	ID=638;Target "Motif:(TATGAT)n" 1 39
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	32361	32398	11.3	+	.	ID=639;Target "Motif:(TATT)n" 1 40
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	32744	32784	15.7	+	.	ID=640;Target "Motif:(ATATATT)n" 1 38
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	37750	37788	 6.3	+	.	ID=641;Target "Motif:(AATTAT)n" 1 37
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	38270	38316	28.6	+	.	ID=642;Target "Motif:(TATAT)n" 1 48
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	44261	44296	20.1	+	.	ID=643;Target "Motif:A-rich" 1 35
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	44312	44355	18.8	+	.	ID=644;Target "Motif:(ATAATG)n" 1 45
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	44695	44763	29.7	+	.	ID=645;Target "Motif:(ATA)n" 1 68
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	48910	48945	 6.5	+	.	ID=646;Target "Motif:(AGATT)n" 1 36
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	52151	52199	25.3	+	.	ID=647;Target "Motif:(TTACTA)n" 1 49
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	54397	54451	14.7	+	.	ID=648;Target "Motif:(ATCTAC)n" 1 52
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	55786	55841	14.9	+	.	ID=649;Target "Motif:(TATAGTAGA)n" 1 63
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	59013	59063	18.7	+	.	ID=650;Target "Motif:(ATAGATT)n" 1 54
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	61536	61567	13.9	+	.	ID=651;Target "Motif:(TATTAA)n" 1 32
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	65570	65616	22.7	+	.	ID=652;Target "Motif:(TATTATT)n" 1 49
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	69892	69956	21.5	+	.	ID=653;Target "Motif:(AAGAT)n" 1 65
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	71907	71958	25.0	+	.	ID=654;Target "Motif:(AATA)n" 1 54
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	72942	73029	30.4	+	.	ID=655;Target "Motif:(AATATT)n" 1 90
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	73911	74029	25.8	+	.	ID=656;Target "Motif:(TATTA)n" 1 115
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	77066	77101	20.1	+	.	ID=657;Target "Motif:(TCTTAT)n" 1 35
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	79384	79426	19.3	+	.	ID=658;Target "Motif:(TCTAATA)n" 1 43
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	80423	80485	17.4	+	.	ID=659;Target "Motif:(TATAATC)n" 1 59
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	88256	88350	21.9	+	.	ID=660;Target "Motif:(GAT)n" 1 95
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	88681	88738	26.6	+	.	ID=661;Target "Motif:(AT)n" 1 61
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	89624	89663	26.8	+	.	ID=662;Target "Motif:(CATATT)n" 1 40
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	92037	92087	24.8	+	.	ID=663;Target "Motif:(TCCATA)n" 1 50
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	97479	97524	19.8	+	.	ID=664;Target "Motif:(ATT)n" 1 46
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	98012	98048	 6.3	+	.	ID=665;Target "Motif:(ATCTCTA)n" 1 37
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	99810	99864	31.5	+	.	ID=666;Target "Motif:(ATT)n" 1 55
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	102099	102129	18.2	+	.	ID=667;Target "Motif:(ATC)n" 1 31
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	105621	105644	 0.0	+	.	ID=668;Target "Motif:(TAAA)n" 1 26
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	110217	110250	20.6	+	.	ID=669;Target "Motif:(ATA)n" 1 35
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	117386	117424	18.2	+	.	ID=670;Target "Motif:(TTGATA)n" 1 39
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	118149	118207	22.4	+	.	ID=671;Target "Motif:(TTATATA)n" 1 61
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	124310	124355	19.9	+	.	ID=672;Target "Motif:(AAGCG)n" 1 43
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	124494	124538	29.6	+	.	ID=673;Target "Motif:(TAA)n" 1 45
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	127550	127632	21.4	+	.	ID=674;Target "Motif:(TAT)n" 1 83
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	127849	127887	 5.6	+	.	ID=675;Target "Motif:(ATA)n" 1 42
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	130462	130493	13.9	+	.	ID=676;Target "Motif:(TAATGA)n" 1 33
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	136698	136737	24.6	+	.	ID=677;Target "Motif:A-rich" 1 39
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	136965	137013	18.5	+	.	ID=678;Target "Motif:(ATTAAG)n" 1 47
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	137162	137172	25.3	+	.	ID=679;Target "Motif:(TAATT)n" 1 43
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	137173	137206	14.8	+	.	ID=680;Target "Motif:A-rich" 1 32
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	138425	138474	13.8	+	.	ID=681;Target "Motif:(AGATAT)n" 1 53
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	141037	141072	13.7	+	.	ID=682;Target "Motif:(ATATAT)n" 1 35
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	154995	155070	24.6	+	.	ID=683;Target "Motif:(ATTCATT)n" 1 73
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	155082	155123	23.2	+	.	ID=684;Target "Motif:(TTCTT)n" 1 41
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	157467	157495	11.2	+	.	ID=685;Target "Motif:(TATACC)n" 1 31
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	173101	173133	13.4	+	.	ID=686;Target "Motif:(TATTA)n" 1 35
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	181509	181568	25.2	+	.	ID=687;Target "Motif:(TATAT)n" 1 59
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	181942	181979	 5.8	+	.	ID=688;Target "Motif:(ATATGA)n" 1 41
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	183064	183116	17.2	+	.	ID=689;Target "Motif:(TGATATA)n" 1 51
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	186433	186466	20.2	+	.	ID=690;Target "Motif:A-rich" 1 34
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	192453	192492	14.4	+	.	ID=691;Target "Motif:(ATATT)n" 1 42
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	193525	193596	28.1	+	.	ID=692;Target "Motif:(TATTA)n" 1 72
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	195513	195552	21.2	+	.	ID=693;Target "Motif:(ATA)n" 1 40
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	197977	198068	20.2	+	.	ID=694;Target "Motif:(TTATAA)n" 1 84
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	201290	201317	 4.0	+	.	ID=695;Target "Motif:(AATAG)n" 1 28
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	204838	204903	18.6	+	.	ID=696;Target "Motif:(ATTAAT)n" 1 61
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	206386	206445	25.1	+	.	ID=697;Target "Motif:(ATAATG)n" 1 60
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	210476	210521	15.8	+	.	ID=698;Target "Motif:(TAGAT)n" 1 47
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	212886	212936	21.3	+	.	ID=699;Target "Motif:(TATAT)n" 1 47
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	215238	215287	20.6	+	.	ID=700;Target "Motif:(ATAGAT)n" 1 48
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	217233	217282	18.8	+	.	ID=701;Target "Motif:(TA)n" 1 51
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	217730	217772	16.5	+	.	ID=702;Target "Motif:A-rich" 1 44
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	218543	218602	16.7	+	.	ID=703;Target "Motif:A-rich" 1 65
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	223654	223684	18.2	+	.	ID=704;Target "Motif:(TACAGA)n" 1 31
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	224585	224644	19.5	+	.	ID=705;Target "Motif:A-rich" 1 56
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	227253	227320	23.7	+	.	ID=706;Target "Motif:(AATAT)n" 1 68
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	228687	228754	23.0	+	.	ID=707;Target "Motif:(ATATA)n" 1 66
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	229433	229474	22.1	+	.	ID=708;Target "Motif:A-rich" 1 43
+seq00060729_SA2119.1	RepeatMasker	dispersed_repeat	229931	229971	21.9	+	.	ID=709;Target "Motif:(TATGAT)n" 1 39
+##sequence-region seq00061149_SA2119.1 1 22586
+seq00061149_SA2119.1	RepeatMasker	dispersed_repeat	13484	13547	23.9	+	.	ID=710;Target "Motif:(TA)n" 1 67
+seq00061149_SA2119.1	RepeatMasker	dispersed_repeat	20291	20333	17.2	+	.	ID=711;Target "Motif:A-rich" 1 42
+seq00061149_SA2119.1	RepeatMasker	dispersed_repeat	20804	20849	12.9	+	.	ID=712;Target "Motif:(ATA)n" 1 47
+seq00061149_SA2119.1	RepeatMasker	dispersed_repeat	21032	21064	11.1	+	.	ID=713;Target "Motif:A-rich" 1 31
+seq00061149_SA2119.1	RepeatMasker	dispersed_repeat	22095	22134	23.3	+	.	ID=714;Target "Motif:A-rich" 1 40
+##sequence-region seq00061152_SA2119.1 1 42724
+seq00061152_SA2119.1	RepeatMasker	dispersed_repeat	10416	10429	16.0	+	.	ID=715;Target "Motif:(TATAA)n" 1 35
+seq00061152_SA2119.1	RepeatMasker	dispersed_repeat	10430	10471	14.4	+	.	ID=716;Target "Motif:A-rich" 1 40
+seq00061152_SA2119.1	RepeatMasker	dispersed_repeat	10472	10483	16.0	+	.	ID=715;Target "Motif:(TATAA)n" 36 71
+seq00061152_SA2119.1	RepeatMasker	dispersed_repeat	18109	18152	23.9	+	.	ID=717;Target "Motif:(ATTTAT)n" 1 45
+seq00061152_SA2119.1	RepeatMasker	dispersed_repeat	37693	37768	26.2	+	.	ID=718;Target "Motif:(TAAT)n" 1 77
+seq00061152_SA2119.1	RepeatMasker	dispersed_repeat	39417	39486	33.1	+	.	ID=719;Target "Motif:(TCA)n" 1 71
+##sequence-region seq00061342_SA2119.1 1 98318
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	1382	1459	25.4	+	.	ID=720;Target "Motif:(ATATCT)n" 1 80
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	2152	2199	24.6	+	.	ID=721;Target "Motif:(ATGTCAT)n" 1 48
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	3909	3953	24.5	+	.	ID=722;Target "Motif:(ATA)n" 1 44
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	4402	4452	20.2	+	.	ID=723;Target "Motif:(AATAAT)n" 1 49
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	9656	9680	 4.5	+	.	ID=724;Target "Motif:(AATA)n" 1 25
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	11316	11344	 8.5	+	.	ID=725;Target "Motif:(TAATA)n" 1 27
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	14973	14996	 0.0	+	.	ID=726;Target "Motif:(AAGA)n" 1 26
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	16215	16279	23.5	+	.	ID=727;Target "Motif:(ATT)n" 1 65
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	31434	31513	22.1	+	.	ID=728;Target "Motif:(AT)n" 1 85
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	32027	32076	24.3	+	.	ID=729;Target "Motif:(AGATAG)n" 1 51
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	33387	33425	17.6	+	.	ID=730;Target "Motif:(AATAT)n" 1 42
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	40653	40705	25.3	+	.	ID=731;Target "Motif:(GTATAA)n" 1 54
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	44598	44634	14.9	+	.	ID=732;Target "Motif:A-rich" 1 40
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	44749	44778	15.8	+	.	ID=733;Target "Motif:GA-rich" 1 29
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	46701	46743	24.6	+	.	ID=734;Target "Motif:(ATA)n" 1 44
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	48821	48884	28.8	+	.	ID=735;Target "Motif:A-rich" 1 61
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	49296	49361	20.8	+	.	ID=736;Target "Motif:(AT)n" 1 67
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	50877	50907	11.2	+	.	ID=737;Target "Motif:A-rich" 1 31
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	51020	51111	27.9	+	.	ID=738;Target "Motif:(ATG)n" 1 89
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	52588	52653	26.7	+	.	ID=739;Target "Motif:(GAT)n" 1 66
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	55525	55559	20.7	+	.	ID=740;Target "Motif:(AT)n" 1 34
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	77527	77561	13.3	+	.	ID=741;Target "Motif:(AGTATTA)n" 1 36
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	79674	79727	14.2	+	.	ID=742;Target "Motif:(AATATGT)n" 1 53
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	81691	81721	14.2	+	.	ID=743;Target "Motif:(TATAA)n" 1 32
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	87615	87645	11.1	+	.	ID=744;Target "Motif:(GTACAA)n" 1 31
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	88068	88107	16.8	+	.	ID=745;Target "Motif:(TACAAG)n" 1 40
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	89498	89528	 7.8	+	.	ID=746;Target "Motif:(TATT)n" 1 30
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	89554	89598	25.1	+	.	ID=747;Target "Motif:(ATAGGTT)n" 1 45
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	91656	91686	18.2	+	.	ID=748;Target "Motif:(TTATAT)n" 1 31
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	93149	93184	17.4	+	.	ID=749;Target "Motif:(TAT)n" 1 34
+seq00061342_SA2119.1	RepeatMasker	dispersed_repeat	97415	97447	10.4	+	.	ID=750;Target "Motif:(ATATAG)n" 1 34
+##sequence-region seq00063140_SA2119.1 1 1371
+seq00063140_SA2119.1	RepeatMasker	dispersed_repeat	249	293	18.3	+	.	ID=751;Target "Motif:(TATAAG)n" 1 47
+seq00063140_SA2119.1	RepeatMasker	dispersed_repeat	1287	1327	15.9	+	.	ID=752;Target "Motif:A-rich" 1 38
+##sequence-region seq00063229_SA2119.1 1 5117
+seq00063229_SA2119.1	RepeatMasker	dispersed_repeat	3354	3388	21.2	+	.	ID=753;Target "Motif:A-rich" 1 34
+seq00063229_SA2119.1	RepeatMasker	dispersed_repeat	3415	3449	19.9	+	.	ID=754;Target "Motif:(AATA)n" 1 36
+seq00063229_SA2119.1	RepeatMasker	dispersed_repeat	3545	3609	25.0	+	.	ID=755;Target "Motif:(AATAATT)n" 1 66
+##sequence-region seq00063230_SA2119.1 1 7803
+seq00063230_SA2119.1	RepeatMasker	dispersed_repeat	872	965	29.2	+	.	ID=756;Target "Motif:A-rich" 1 92
+seq00063230_SA2119.1	RepeatMasker	dispersed_repeat	5448	5495	24.4	+	.	ID=757;Target "Motif:A-rich" 1 49
+##sequence-region seq00066917_SA1517.1 1 1129
+seq00066917_SA1517.1	RepeatMasker	dispersed_repeat	217	252	16.3	+	.	ID=758;Target "Motif:(TAA)n" 1 36
+##sequence-region seq00070517_SA2034.1 1 1336
+seq00070517_SA2034.1	RepeatMasker	dispersed_repeat	119	154	15.4	+	.	ID=759;Target "Motif:(CTCCG)n" 1 38
+##sequence-region seq00070972_SA1517.1 1 1352
+seq00070972_SA1517.1	RepeatMasker	dispersed_repeat	996	1039	22.1	+	.	ID=760;Target "Motif:(GCA)n" 1 44
+##sequence-region seq00071063_SA1517.1 1 1133
+seq00071063_SA1517.1	RepeatMasker	dispersed_repeat	368	402	12.4	+	.	ID=761;Target "Motif:(CCA)n" 1 35
+##sequence-region seq00071104_SA1517.1 1 1103
+seq00071104_SA1517.1	RepeatMasker	dispersed_repeat	776	816	22.6	+	.	ID=762;Target "Motif:(TCTTCC)n" 1 41
+##sequence-region seq00071164_SA1517.1 1 1041
+seq00071164_SA1517.1	RepeatMasker	dispersed_repeat	561	615	31.2	+	.	ID=763;Target "Motif:(CTT)n" 1 55
+##sequence-region seq00071221_SA1517.1 1 1001
+seq00071221_SA1517.1	RepeatMasker	dispersed_repeat	457	491	19.5	+	.	ID=764;Target "Motif:A-rich" 1 36
+##sequence-region seq00071241_SA1517.1 1 1257
+seq00071241_SA1517.1	RepeatMasker	dispersed_repeat	1231	1253	 4.5	+	.	ID=765;Target "Motif:(AG)n" 1 24
+##sequence-region seq00071657_SA1517.1 1 1067
+seq00071657_SA1517.1	RepeatMasker	dispersed_repeat	330	395	18.1	+	.	ID=766;Target "Motif:A-rich" 1 64
+##sequence-region seq00071801_SA1517.1 1 1083
+seq00071801_SA1517.1	RepeatMasker	dispersed_repeat	521	551	11.2	+	.	ID=767;Target "Motif:A-rich" 1 31
+##sequence-region seq00073038_SA2119.1 1 1430
+seq00073038_SA2119.1	RepeatMasker	dispersed_repeat	987	1037	21.1	+	.	ID=768;Target "Motif:GA-rich" 1 47
+##sequence-region seq00073426_SA2034.1 1 1770
+seq00073426_SA2034.1	RepeatMasker	dispersed_repeat	443	477	13.3	+	.	ID=769;Target "Motif:(CTTAA)n" 1 35
+##sequence-region seq00073697_SA1517.1 1 1660
+seq00073697_SA1517.1	RepeatMasker	dispersed_repeat	473	532	25.6	+	.	ID=770;Target "Motif:(ATAAT)n" 1 64
+##sequence-region seq00073858_SA1517.1 1 1008
+seq00073858_SA1517.1	RepeatMasker	dispersed_repeat	487	546	24.0	+	.	ID=771;Target "Motif:(TA)n" 1 61
+##sequence-region seq00075855_SA2034.1 1 2087
+seq00075855_SA2034.1	RepeatMasker	dispersed_repeat	1522	1559	 9.4	+	.	ID=772;Target "Motif:(AGACAA)n" 1 38
+##sequence-region seq00076036_SA2119.1 1 1184
+seq00076036_SA2119.1	RepeatMasker	dispersed_repeat	1	134	29.9	+	.	ID=773;Target "Motif:L1M4b" 952 1086
+seq00076036_SA2119.1	RepeatMasker	dispersed_repeat	146	586	23.1	+	.	ID=773;Target "Motif:L1M4b" 1138 1588
+seq00076036_SA2119.1	RepeatMasker	dispersed_repeat	560	826	29.3	+	.	ID=774;Target "Motif:L1M3a" 2 269
+seq00076036_SA2119.1	RepeatMasker	dispersed_repeat	885	1183	30.1	+	.	ID=773;Target "Motif:L1M4b" 1756 2045
+##sequence-region seq00084019_SA2119.1 1 1366
+seq00084019_SA2119.1	RepeatMasker	dispersed_repeat	117	158	 6.1	+	.	ID=775;Target "Motif:(AATA)n" 1 38
+##sequence-region seq00084390_SA2119.1 1 2188
+seq00084390_SA2119.1	RepeatMasker	dispersed_repeat	1376	1420	17.8	+	.	ID=776;Target "Motif:(CGTAGG)n" 1 45
+##sequence-region seq00084973_SA2119.1 1 1452
+seq00084973_SA2119.1	RepeatMasker	dispersed_repeat	50	87	22.6	+	.	ID=777;Target "Motif:(ATAA)n" 1 37
+##sequence-region seq00085138_SA2119.1 1 1365
+seq00085138_SA2119.1	RepeatMasker	dispersed_repeat	625	663	12.3	+	.	ID=778;Target "Motif:A-rich" 1 38
+##sequence-region seq00085260_SA2119.1 1 1068
+seq00085260_SA2119.1	RepeatMasker	dispersed_repeat	129	178	18.9	+	.	ID=779;Target "Motif:(TTTCTCT)n" 1 52
+##sequence-region seq00089631_SA2119.1 1 1761
+seq00089631_SA2119.1	RepeatMasker	dispersed_repeat	426	467	20.3	+	.	ID=780;Target "Motif:(CAGATTT)n" 1 41
+##sequence-region seq00089637_SA2119.1 1 1393
+seq00089637_SA2119.1	RepeatMasker	dispersed_repeat	1296	1330	23.5	+	.	ID=781;Target "Motif:GA-rich" 1 35
+##sequence-region seq00111832_SA2034.1 1 1105
+seq00111832_SA2034.1	RepeatMasker	dispersed_repeat	310	341	10.0	+	.	ID=782;Target "Motif:(TAATAG)n" 1 34
+seq00111832_SA2034.1	RepeatMasker	dispersed_repeat	681	711	11.2	+	.	ID=783;Target "Motif:A-rich" 1 31
+##sequence-region seq00115255_SA2119.1 1 1026
+seq00115255_SA2119.1	RepeatMasker	dispersed_repeat	708	739	18.1	+	.	ID=784;Target "Motif:GA-rich" 1 33
+##sequence-region seq00116417_SA2119.1 1 1001
+seq00116417_SA2119.1	RepeatMasker	dispersed_repeat	304	342	21.7	+	.	ID=785;Target "Motif:A-rich" 1 38
+##sequence-region seq00118678_SA2119.1 1 1082
+seq00118678_SA2119.1	RepeatMasker	dispersed_repeat	63	112	26.2	+	.	ID=786;Target "Motif:(TTCTT)n" 1 51
+##sequence-region seq00119607_SA2119.1 1 1295
+seq00119607_SA2119.1	RepeatMasker	dispersed_repeat	814	870	13.0	+	.	ID=787;Target "Motif:(AAGATA)n" 1 58
+##sequence-region seq00119688_SA2119.1 1 1053
+seq00119688_SA2119.1	RepeatMasker	dispersed_repeat	499	546	16.6	+	.	ID=788;Target "Motif:GA-rich" 1 44
+##sequence-region seq00119705_SA2119.1 1 1021
+seq00119705_SA2119.1	RepeatMasker	dispersed_repeat	812	861	20.6	+	.	ID=789;Target "Motif:A-rich" 1 48
+##sequence-region seq00123222_SA2034.1 1 110117
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	22889	22935	19.2	+	.	ID=790;Target "Motif:(TTCTGTT)n" 1 45
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	50457	50486	11.5	+	.	ID=791;Target "Motif:(TCTTA)n" 1 30
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	57084	57157	27.4	-	.	ID=792;Target "Motif:OldhAT1" 2723 2798
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	73916	73954	19.7	+	.	ID=793;Target "Motif:A-rich" 1 37
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	74100	74135	12.1	+	.	ID=794;Target "Motif:(ATAAGT)n" 1 39
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	77640	77662	 9.3	+	.	ID=795;Target "Motif:(TAAT)n" 1 23
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	82942	82987	15.2	+	.	ID=796;Target "Motif:A-rich" 1 49
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	96227	96286	21.8	+	.	ID=797;Target "Motif:GA-rich" 1 60
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	101259	101298	21.1	+	.	ID=798;Target "Motif:A-rich" 1 39
+seq00123222_SA2034.1	RepeatMasker	dispersed_repeat	105425	105453	 7.8	+	.	ID=799;Target "Motif:(TCTTT)n" 1 29
+##sequence-region seq00123819_SA2119.1 1 1307
+seq00123819_SA2119.1	RepeatMasker	dispersed_repeat	750	785	22.6	+	.	ID=800;Target "Motif:A-rich" 1 36
+##sequence-region seq00125599_SA2119.1 1 1122
+seq00125599_SA2119.1	RepeatMasker	dispersed_repeat	651	702	18.7	+	.	ID=801;Target "Motif:(AAGCTTT)n" 1 47
+##sequence-region seq00125768_SA2034.1 1 3832
+seq00125768_SA2034.1	RepeatMasker	dispersed_repeat	2862	2904	25.2	+	.	ID=802;Target "Motif:(TAT)n" 1 43
+##sequence-region seq00126046_SA2034.1 1 3519
+seq00126046_SA2034.1	RepeatMasker	dispersed_repeat	1003	1030	 7.6	+	.	ID=803;Target "Motif:(TCGCT)n" 1 30
+##sequence-region seq00126093_SA2034.1 1 2138
+seq00126093_SA2034.1	RepeatMasker	dispersed_repeat	537	601	 8.9	+	.	ID=804;Target "Motif:(AT)n" 1 67
+seq00126093_SA2034.1	RepeatMasker	dispersed_repeat	1640	1673	24.1	+	.	ID=805;Target "Motif:(ACG)n" 1 34
+##sequence-region seq00126259_SA2119.1 1 67083
+seq00126259_SA2119.1	RepeatMasker	dispersed_repeat	6157	6195	15.9	+	.	ID=806;Target "Motif:A-rich" 1 38
+seq00126259_SA2119.1	RepeatMasker	dispersed_repeat	28374	28411	21.2	+	.	ID=807;Target "Motif:A-rich" 1 38
+seq00126259_SA2119.1	RepeatMasker	dispersed_repeat	43719	43747	 7.8	+	.	ID=808;Target "Motif:(TTTA)n" 1 29
+seq00126259_SA2119.1	RepeatMasker	dispersed_repeat	55539	55600	17.4	+	.	ID=809;Target "Motif:(TTCT)n" 1 60
+seq00126259_SA2119.1	RepeatMasker	dispersed_repeat	61245	61290	22.7	+	.	ID=810;Target "Motif:(ACAACC)n" 1 46
+seq00126259_SA2119.1	RepeatMasker	dispersed_repeat	66224	66339	32.5	-	.	ID=811;Target "Motif:L3" 3451 3564
+##sequence-region seq00126417_SA2034.1 1 2361
+seq00126417_SA2034.1	RepeatMasker	dispersed_repeat	16	51	 0.0	+	.	ID=812;Target "Motif:(AATATA)n" 1 34
+##sequence-region seq00126573_SA2034.1 1 2300
+seq00126573_SA2034.1	RepeatMasker	dispersed_repeat	1146	1178	13.2	+	.	ID=813;Target "Motif:(TTATTT)n" 1 35
+##sequence-region seq00127139_SA2034.1 1 1344
+seq00127139_SA2034.1	RepeatMasker	dispersed_repeat	1151	1197	17.8	+	.	ID=814;Target "Motif:(ATTTTTC)n" 1 48
+##sequence-region seq00127161_SA2034.1 1 1183
+seq00127161_SA2034.1	RepeatMasker	dispersed_repeat	285	308	 0.0	+	.	ID=815;Target "Motif:(A)n" 1 24
+##sequence-region seq00127601_SA2034.1 1 1507
+seq00127601_SA2034.1	RepeatMasker	dispersed_repeat	765	825	31.1	+	.	ID=816;Target "Motif:(TATATT)n" 1 61
+##sequence-region seq00127627_SA2034.1 1 1184
+seq00127627_SA2034.1	RepeatMasker	dispersed_repeat	560	578	 0.0	+	.	ID=817;Target "Motif:(A)n" 1 19
+##sequence-region seq00127631_SA2119.1 1 16971
+seq00127631_SA2119.1	RepeatMasker	dispersed_repeat	1326	1379	15.6	+	.	ID=818;Target "Motif:(TAA)n" 1 48
+seq00127631_SA2119.1	RepeatMasker	dispersed_repeat	15411	15456	13.6	+	.	ID=819;Target "Motif:(CACCTC)n" 1 43
+##sequence-region seq00127817_SA2119.1 1 5509
+seq00127817_SA2119.1	RepeatMasker	dispersed_repeat	5023	5054	 0.0	+	.	ID=820;Target "Motif:(A)n" 1 32
+##sequence-region seq00127893_SA2034.1 1 2025
+seq00127893_SA2034.1	RepeatMasker	dispersed_repeat	282	323	21.1	+	.	ID=821;Target "Motif:A-rich" 1 40
+##sequence-region seq00127898_SA2034.1 1 1903
+seq00127898_SA2034.1	RepeatMasker	dispersed_repeat	1748	1850	21.5	+	.	ID=822;Target "Motif:A-rich" 1 100
+##sequence-region seq00128056_SA2119.1 1 2508
+seq00128056_SA2119.1	RepeatMasker	dispersed_repeat	2060	2101	20.1	+	.	ID=823;Target "Motif:(ACCCCT)n" 1 41
+##sequence-region seq00128528_SA2119.1 1 4181
+seq00128528_SA2119.1	RepeatMasker	dispersed_repeat	367	405	20.6	+	.	ID=824;Target "Motif:A-rich" 1 41
+##sequence-region seq00130004_SA2034.1 1 1241
+seq00130004_SA2034.1	RepeatMasker	dispersed_repeat	198	228	10.5	+	.	ID=825;Target "Motif:(AT)n" 1 33
+##sequence-region seq00131419_SA2119.1 1 1362
+seq00131419_SA2119.1	RepeatMasker	dispersed_repeat	946	967	 4.8	+	.	ID=826;Target "Motif:(A)n" 1 22
+##sequence-region seq00131516_SA2119.1 1 1621
+seq00131516_SA2119.1	RepeatMasker	dispersed_repeat	998	1017	 5.2	+	.	ID=827;Target "Motif:(A)n" 1 20
+##sequence-region seq00131587_SA2119.1 1 1370
+seq00131587_SA2119.1	RepeatMasker	dispersed_repeat	1193	1245	21.0	+	.	ID=828;Target "Motif:(TTTATGT)n" 1 53
+##sequence-region seq00132020_SA2119.1 1 1027
+seq00132020_SA2119.1	RepeatMasker	dispersed_repeat	9	45	 5.7	+	.	ID=829;Target "Motif:(GTCTCC)n" 1 43
+##sequence-region seq00132068_SA2119.1 1 1766
+seq00132068_SA2119.1	RepeatMasker	dispersed_repeat	671	707	10.4	+	.	ID=830;Target "Motif:A-rich" 1 34
+##sequence-region seq00132162_SA2119.1 1 1486
+seq00132162_SA2119.1	RepeatMasker	dispersed_repeat	658	685	12.6	+	.	ID=831;Target "Motif:(TAT)n" 1 27
+##sequence-region seq00132164_SA2119.1 1 1022
+seq00132164_SA2119.1	RepeatMasker	dispersed_repeat	939	973	24.0	+	.	ID=832;Target "Motif:A-rich" 1 35
+##sequence-region seq00132193_SA2119.1 1 1609
+seq00132193_SA2119.1	RepeatMasker	dispersed_repeat	19	55	15.0	+	.	ID=833;Target "Motif:A-rich" 1 39
+##sequence-region seq00132318_SA2034.1 1 2324
+seq00132318_SA2034.1	RepeatMasker	dispersed_repeat	131	167	25.6	+	.	ID=834;Target "Motif:A-rich" 1 37
+##sequence-region seq00132395_SA2119.1 1 1528
+seq00132395_SA2119.1	RepeatMasker	dispersed_repeat	847	863	 0.0	+	.	ID=835;Target "Motif:(A)n" 1 17
+##sequence-region seq00132493_SA2119.1 1 1106
+seq00132493_SA2119.1	RepeatMasker	dispersed_repeat	235	265	10.8	+	.	ID=836;Target "Motif:(AAGTGA)n" 1 31
+##sequence-region seq00132530_SA2119.1 1 1270
+seq00132530_SA2119.1	RepeatMasker	dispersed_repeat	457	501	16.3	+	.	ID=837;Target "Motif:A-rich" 1 48
+##sequence-region seq00132804_SA2119.1 1 1195
+seq00132804_SA2119.1	RepeatMasker	dispersed_repeat	981	1012	21.6	+	.	ID=838;Target "Motif:(T)n" 1 32
+##sequence-region seq00132858_SA2119.1 1 1062
+seq00132858_SA2119.1	RepeatMasker	dispersed_repeat	26	62	25.5	+	.	ID=839;Target "Motif:(TTTTGTA)n" 1 37
+##sequence-region seq00133064_SA2119.1 1 1204
+seq00133064_SA2119.1	RepeatMasker	dispersed_repeat	426	479	13.2	+	.	ID=840;Target "Motif:(TTCTCT)n" 1 57
+##sequence-region seq00133098_SA2119.1 1 1076
+seq00133098_SA2119.1	RepeatMasker	dispersed_repeat	716	746	 3.3	+	.	ID=841;Target "Motif:(A)n" 1 31
+##sequence-region seq00133539_SA2119.1 1 1125
+seq00133539_SA2119.1	RepeatMasker	dispersed_repeat	736	791	18.0	+	.	ID=842;Target "Motif:(GCTAA)n" 1 54
+##sequence-region seq00133739_SA2119.1 1 1636
+seq00133739_SA2119.1	RepeatMasker	dispersed_repeat	114	169	21.2	+	.	ID=843;Target "Motif:(GTGATAT)n" 1 57
+##sequence-region seq00134120_SA2119.1 1 1350
+seq00134120_SA2119.1	RepeatMasker	dispersed_repeat	943	965	 0.0	+	.	ID=844;Target "Motif:(T)n" 1 23
+##sequence-region seq00135129_SA2034.1 1 1012
+seq00135129_SA2034.1	RepeatMasker	dispersed_repeat	439	472	13.9	+	.	ID=845;Target "Motif:(ATCTT)n" 1 34
+seq00135129_SA2034.1	RepeatMasker	dispersed_repeat	611	655	19.2	+	.	ID=846;Target "Motif:(CTTTTTT)n" 1 44
+##sequence-region seq00135548_SA2034.1 1 1592
+seq00135548_SA2034.1	RepeatMasker	dispersed_repeat	1479	1549	 3.2	+	.	ID=847;Target "Motif:(GTATATA)n" 1 70
+##sequence-region seq00136705_SA2034.1 1 1673
+seq00136705_SA2034.1	RepeatMasker	dispersed_repeat	14	342	12.6	+	.	ID=848;Target "Motif:L1MB8" 5840 6178
+seq00136705_SA2034.1	RepeatMasker	dispersed_repeat	337	417	10.5	+	.	ID=849;Target "Motif:L1ME1" 5219 5302
+seq00136705_SA2034.1	RepeatMasker	dispersed_repeat	429	544	19.8	-	.	ID=850;Target "Motif:AluJb" 173 290
+seq00136705_SA2034.1	RepeatMasker	dispersed_repeat	568	880	10.5	-	.	ID=851;Target "Motif:AluYk2" 1 311
+seq00136705_SA2034.1	RepeatMasker	dispersed_repeat	881	1638	21.4	+	.	ID=849;Target "Motif:L1ME1" 5323 6152
