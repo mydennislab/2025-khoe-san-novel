@@ -32,3 +32,4 @@ deploy: generate ## Prepare for deployment (generate structure)
 install: ## Install local dependencies (if needed)
 	@echo "📦 All dependencies are built-in Python modules"
 	@echo "✅ No additional installation required!"
+

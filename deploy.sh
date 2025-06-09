@@ -116,7 +116,21 @@ echo "3. Under 'Source', select 'GitHub Actions'"
 echo "4. The workflow will automatically deploy your browser"
 echo ""
 echo "Your site will be available at:"
-echo "https://$(git remote get-url origin 2>/dev/null | sed 's/.*github.com[:/]//' | sed 's/.git$//' | sed 's|/|.github.io/|')"
+# Parse GitHub URL properly
+REPO_URL=$(git remote get-url origin 2>/dev/null || echo '')
+if [[ $REPO_URL =~ git@github.com:(.+)\.git ]]; then
+    # SSH format
+    REPO_PATH="${BASH_REMATCH[1]}"
+elif [[ $REPO_URL =~ https://github.com/(.+)\.git ]]; then
+    # HTTPS format  
+    REPO_PATH="${BASH_REMATCH[1]}"
+elif [[ $REPO_URL =~ https://github.com/(.+) ]]; then
+    # HTTPS without .git
+    REPO_PATH="${BASH_REMATCH[1]}"
+else
+    REPO_PATH="username/repository"
+fi
+echo "https://${REPO_PATH%/*}.github.io/${REPO_PATH##*/}/"
 echo ""
 
 print_success "Deployment preparation complete!"

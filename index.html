@@ -523,7 +523,21 @@
                 navigateTo([...currentPath, item.name]);
             } else {
                 // For files, open in new tab with GitHub URL
-                const repoUrl = `https://github.com/${repoData.repository}/blob/${repoData.branch}/${item.path}`;
+                // Ensure proper GitHub URL format
+                let repoPath = repoData.repository;
+                
+                // Handle different repository formats
+                if (repoPath.includes('git@github.com:')) {
+                    repoPath = repoPath.replace('git@github.com:', '');
+                } else if (repoPath.includes('https://github.com/')) {
+                    repoPath = repoPath.replace('https://github.com/', '');
+                }
+                
+                // Remove .git suffix if present
+                repoPath = repoPath.replace('.git', '');
+                
+                // Construct proper GitHub URL
+                const repoUrl = `https://github.com/${repoPath}/blob/${repoData.branch}/${item.path}`;
                 window.open(repoUrl, '_blank');
             }
         }

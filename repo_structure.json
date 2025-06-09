@@ -1,7 +1,7 @@
 {
-  "repository": "git@github.com:mydennislab/2025-khoe-san-novel",
+  "repository": "mydennislab/2025-khoe-san-novel",
   "branch": "main",
-  "last_updated": "2025-06-09T12:42:53.556481",
+  "last_updated": "2025-06-09T13:01:27.493484",
   "structure": [
     {
       "name": ".github",
@@ -17,9 +17,9 @@
               "name": "sync_repo_files.yml",
               "type": "file",
               "path": ".github/workflows/sync_repo_files.yml",
-              "size": 29009,
+              "size": 28934,
               "size_formatted": "28.3 KB",
-              "modified": "2025-06-09T12:37:46",
+              "modified": "2025-06-09T12:47:46",
               "mime_type": "application/octet-stream"
             }
           ]
@@ -27,13 +27,31 @@
       ]
     },
     {
+      "name": "DEPLOYMENT_SUMMARY.md",
+      "type": "file",
+      "path": "DEPLOYMENT_SUMMARY.md",
+      "size": 5978,
+      "size_formatted": "5.8 KB",
+      "modified": "2025-06-09T12:46:52",
+      "mime_type": "text/markdown"
+    },
+    {
       "name": "Makefile",
       "type": "file",
       "path": "Makefile",
-      "size": 1348,
+      "size": 1349,
       "size_formatted": "1.3 KB",
-      "modified": "2025-06-09T12:42:14",
+      "modified": "2025-06-09T12:50:26",
       "mime_type": "application/octet-stream"
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "path": "README.md",
+      "size": 6890,
+      "size_formatted": "6.7 KB",
+      "modified": "2025-06-09T12:46:52",
+      "mime_type": "text/markdown"
     },
     {
       "name": "README_BROWSER.md",
@@ -41,8 +59,17 @@
       "path": "README_BROWSER.md",
       "size": 4900,
       "size_formatted": "4.8 KB",
-      "modified": "2025-06-09T12:42:14",
+      "modified": "2025-06-09T12:46:52",
       "mime_type": "text/markdown"
+    },
+    {
+      "name": "_config.yml",
+      "type": "file",
+      "path": "_config.yml",
+      "size": 831,
+      "size_formatted": "831.0 B",
+      "modified": "2025-06-09T12:49:58",
+      "mime_type": "application/octet-stream"
     },
     {
       "name": "chm13_analysis",
@@ -131,6 +158,15 @@
       "size_formatted": "2.4 MB",
       "modified": "2025-06-09T12:32:32",
       "mime_type": "application/octet-stream"
+    },
+    {
+      "name": "deploy.sh",
+      "type": "file",
+      "path": "deploy.sh",
+      "size": 3947,
+      "size_formatted": "3.9 KB",
+      "modified": "2025-06-09T13:01:22",
+      "mime_type": "text/x-sh"
     },
     {
       "name": "galaxy_kraken",
@@ -269,18 +305,18 @@
       "name": "generate_structure.py",
       "type": "file",
       "path": "generate_structure.py",
-      "size": 4131,
-      "size_formatted": "4.0 KB",
-      "modified": "2025-06-09T12:42:14",
+      "size": 4676,
+      "size_formatted": "4.6 KB",
+      "modified": "2025-06-09T13:01:22",
       "mime_type": "text/x-python"
     },
     {
       "name": "index.html",
       "type": "file",
       "path": "index.html",
-      "size": 18295,
-      "size_formatted": "17.9 KB",
-      "modified": "2025-06-09T12:41:48",
+      "size": 18943,
+      "size_formatted": "18.5 KB",
+      "modified": "2025-06-09T13:01:22",
       "mime_type": "text/html"
     },
     {
@@ -296,9 +332,9 @@
       "name": "repo_structure.json",
       "type": "file",
       "path": "repo_structure.json",
-      "size": 10053,
-      "size_formatted": "9.8 KB",
-      "modified": "2025-06-09T12:39:54",
+      "size": 10561,
+      "size_formatted": "10.3 KB",
+      "modified": "2025-06-09T12:42:53",
       "mime_type": "application/json"
     },
     {
