@@ -3,54 +3,575 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Repo Navigator</title>
+    <title>2025 Khoe-San Novel - Repository Browser</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
             padding: 20px;
         }
-        ul {
-            list-style-type: none;
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
         }
-        a {
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.8;
+            font-size: 1.1rem;
+        }
+
+        .breadcrumb {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            border-bottom: 1px solid #e9ecef;
+            font-size: 14px;
+        }
+
+        .breadcrumb span {
+            color: #6c757d;
+        }
+
+        .breadcrumb a {
+            color: #007bff;
             text-decoration: none;
-            color: #0366d6;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .controls {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 15px 10px 40px;
+            border: 2px solid #ddd;
+            border-radius: 25px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        .search-box i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+        }
+
+        .view-toggle {
+            display: flex;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .view-toggle button {
+            padding: 8px 12px;
+            border: none;
+            background: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .view-toggle button.active {
+            background: #007bff;
+            color: white;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .file-list {
+            list-style: none;
+        }
+
+        .file-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-bottom: 2px;
+            transition: background-color 0.2s;
+            cursor: pointer;
+        }
+
+        .file-item:hover {
+            background: #f8f9fa;
+        }
+
+        .file-icon {
+            width: 24px;
+            margin-right: 12px;
+            text-align: center;
+        }
+
+        .file-icon.directory {
+            color: #ffa500;
+        }
+
+        .file-icon.file {
+            color: #6c757d;
+        }
+
+        .file-name {
+            flex: 1;
+            font-weight: 500;
+        }
+
+        .file-name.directory {
+            color: #007bff;
+        }
+
+        .file-meta {
+            display: flex;
+            gap: 20px;
+            font-size: 12px;
+            color: #6c757d;
+        }
+
+        .grid-view {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-item {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .grid-item .icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #6c757d;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+
+        .stats {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .file-meta {
+                display: none;
+            }
         }
     </style>
 </head>
 <body>
-    <h2>Repository File Navigator</h2>
-    <p>Click on files to navigate:</p>
-    <ul id="repo-contents"></ul>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fab fa-github"></i> 2025 Khoe-San Novel</h1>
+            <p>Interactive Repository Browser</p>
+        </div>
+        
+        <div class="breadcrumb">
+            <span id="breadcrumb-content">
+                <a href="#" onclick="navigateTo([])">🏠 Home</a>
+            </span>
+        </div>
+        
+        <div class="controls">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search" placeholder="Search files and folders..." onkeyup="filterItems()">
+            </div>
+            
+            <div class="view-toggle">
+                <button id="list-view" class="active" onclick="setView('list')">
+                    <i class="fas fa-list"></i> List
+                </button>
+                <button id="grid-view" onclick="setView('grid')">
+                    <i class="fas fa-th"></i> Grid
+                </button>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div id="loading" class="loading">
+                <i class="fas fa-spinner fa-spin"></i> Loading repository structure...
+            </div>
+            
+            <div id="error" class="error" style="display: none;"></div>
+            
+            <div id="stats" class="stats" style="display: none;">
+                <div class="stat-item">
+                    <i class="fas fa-folder"></i>
+                    <span id="dir-count">0 directories</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-file"></i>
+                    <span id="file-count">0 files</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-clock"></i>
+                    <span id="last-updated">Last updated: --</span>
+                </div>
+            </div>
+            
+            <ul id="file-list" class="file-list" style="display: none;"></ul>
+            <div id="grid-container" class="grid-view" style="display: none;"></div>
+        </div>
+    </div>
 
     <script>
-        async function fetchRepoContents() {
+        let repoData = null;
+        let currentPath = [];
+        let currentView = 'list';
+        let filteredItems = [];
+
+        // File type icons mapping
+        const fileIcons = {
+            directory: 'fas fa-folder',
+            '.js': 'fab fa-js-square',
+            '.ts': 'fas fa-code',
+            '.html': 'fab fa-html5',
+            '.css': 'fab fa-css3-alt',
+            '.py': 'fab fa-python',
+            '.java': 'fab fa-java',
+            '.json': 'fas fa-file-code',
+            '.md': 'fab fa-markdown',
+            '.txt': 'fas fa-file-alt',
+            '.pdf': 'fas fa-file-pdf',
+            '.doc': 'fas fa-file-word',
+            '.xls': 'fas fa-file-excel',
+            '.ppt': 'fas fa-file-powerpoint',
+            '.zip': 'fas fa-file-archive',
+            '.gz': 'fas fa-file-archive',
+            '.tar': 'fas fa-file-archive',
+            '.img': 'fas fa-file-image',
+            '.jpg': 'fas fa-file-image',
+            '.png': 'fas fa-file-image',
+            '.gif': 'fas fa-file-image',
+            '.mp4': 'fas fa-file-video',
+            '.mp3': 'fas fa-file-audio',
+            '.bam': 'fas fa-dna',
+            '.vcf': 'fas fa-dna',
+            '.fa': 'fas fa-dna',
+            '.fasta': 'fas fa-dna',
+            '.fastq': 'fas fa-dna',
+            '.sam': 'fas fa-dna',
+            '.bed': 'fas fa-dna',
+            '.gff': 'fas fa-dna',
+            '.gtf': 'fas fa-dna',
+            '.ipynb': 'fas fa-code',
+            '.yml': 'fas fa-cog',
+            '.yaml': 'fas fa-cog',
+            '.sh': 'fas fa-terminal',
+            default: 'fas fa-file'
+        };
+
+        function getFileIcon(item) {
+            if (item.type === 'directory') {
+                return fileIcons.directory;
+            }
+            
+            const ext = '.' + item.name.split('.').pop().toLowerCase();
+            return fileIcons[ext] || fileIcons.default;
+        }
+
+        async function loadRepoStructure() {
             try {
-                const response = await fetch("repo_contents.json");
-                if (!response.ok) throw new Error("Failed to load repo contents.");
-                const data = await response.json();
-                renderFiles(data);
+                const response = await fetch('repo_structure.json');
+                if (!response.ok) throw new Error('Failed to load repository structure');
+                
+                repoData = await response.json();
+                updateStats();
+                navigateTo([]);
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('stats').style.display = 'flex';
             } catch (error) {
-                document.getElementById("repo-contents").innerHTML = `<p style="color:red;">Error: ${error.message}</p>`;
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = 'Error: ' + error.message;
             }
         }
 
-        function renderFiles(files) {
-            const list = document.getElementById("repo-contents");
-            list.innerHTML = "";
-            files.forEach(file => {
-                const li = document.createElement("li");
-                const link = document.createElement("a");
-                link.textContent = file.name;
-                link.href = file.html_url;
-                link.target = "_blank";
-                li.appendChild(link);
-                list.appendChild(li);
+        function updateStats() {
+            if (!repoData) return;
+            
+            let dirCount = 0;
+            let fileCount = 0;
+            
+            function countItems(items) {
+                items.forEach(item => {
+                    if (item.type === 'directory') {
+                        dirCount++;
+                        if (item.children) countItems(item.children);
+                    } else {
+                        fileCount++;
+                    }
+                });
+            }
+            
+            countItems(repoData.structure);
+            
+            document.getElementById('dir-count').textContent = `${dirCount} directories`;
+            document.getElementById('file-count').textContent = `${fileCount} files`;
+            document.getElementById('last-updated').textContent = `Last updated: ${new Date(repoData.last_updated).toLocaleString()}`;
+        }
+
+        function navigateTo(path) {
+            currentPath = [...path];
+            updateBreadcrumb();
+            
+            let currentItems = repoData.structure;
+            for (const segment of path) {
+                const dir = currentItems.find(item => item.name === segment && item.type === 'directory');
+                if (dir && dir.children) {
+                    currentItems = dir.children;
+                }
+            }
+            
+            filteredItems = currentItems;
+            renderItems();
+        }
+
+        function updateBreadcrumb() {
+            const breadcrumb = document.getElementById('breadcrumb-content');
+            let html = '<a href="#" onclick="navigateTo([])">🏠 Home</a>';
+            
+            for (let i = 0; i < currentPath.length; i++) {
+                const pathSegment = currentPath.slice(0, i + 1);
+                html += ` / <a href="#" onclick="navigateTo(${JSON.stringify(pathSegment)})">${currentPath[i]}</a>`;
+            }
+            
+            breadcrumb.innerHTML = html;
+        }
+
+        function renderItems() {
+            if (currentView === 'list') {
+                renderListView();
+            } else {
+                renderGridView();
+            }
+        }
+
+        function renderListView() {
+            const fileList = document.getElementById('file-list');
+            const gridContainer = document.getElementById('grid-container');
+            
+            fileList.style.display = 'block';
+            gridContainer.style.display = 'none';
+            
+            fileList.innerHTML = '';
+            
+            // Sort items: directories first, then files, both alphabetically
+            const sortedItems = [...filteredItems].sort((a, b) => {
+                if (a.type !== b.type) {
+                    return a.type === 'directory' ? -1 : 1;
+                }
+                return a.name.localeCompare(b.name);
+            });
+            
+            sortedItems.forEach(item => {
+                const li = document.createElement('li');
+                li.className = 'file-item';
+                li.onclick = () => handleItemClick(item);
+                
+                const iconClass = getFileIcon(item);
+                const isDirectory = item.type === 'directory';
+                
+                li.innerHTML = `
+                    <div class="file-icon ${item.type}">
+                        <i class="${iconClass}"></i>
+                    </div>
+                    <div class="file-name ${item.type}">
+                        ${item.name}
+                    </div>
+                    <div class="file-meta">
+                        ${!isDirectory ? `<span>${item.size_formatted || '—'}</span>` : ''}
+                        ${!isDirectory && item.modified ? `<span>${new Date(item.modified).toLocaleDateString()}</span>` : ''}
+                    </div>
+                `;
+                
+                fileList.appendChild(li);
             });
         }
 
-        fetchRepoContents();
+        function renderGridView() {
+            const fileList = document.getElementById('file-list');
+            const gridContainer = document.getElementById('grid-container');
+            
+            fileList.style.display = 'none';
+            gridContainer.style.display = 'grid';
+            
+            gridContainer.innerHTML = '';
+            
+            const sortedItems = [...filteredItems].sort((a, b) => {
+                if (a.type !== b.type) {
+                    return a.type === 'directory' ? -1 : 1;
+                }
+                return a.name.localeCompare(b.name);
+            });
+            
+            sortedItems.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'grid-item';
+                div.onclick = () => handleItemClick(item);
+                
+                const iconClass = getFileIcon(item);
+                const isDirectory = item.type === 'directory';
+                
+                div.innerHTML = `
+                    <div class="icon">
+                        <i class="${iconClass}" style="color: ${isDirectory ? '#ffa500' : '#6c757d'}"></i>
+                    </div>
+                    <div class="file-name">
+                        ${item.name}
+                    </div>
+                    ${!isDirectory && item.size_formatted ? `<div style="font-size: 12px; color: #6c757d; margin-top: 5px;">${item.size_formatted}</div>` : ''}
+                `;
+                
+                gridContainer.appendChild(div);
+            });
+        }
+
+        function handleItemClick(item) {
+            if (item.type === 'directory') {
+                navigateTo([...currentPath, item.name]);
+            } else {
+                // For files, open in new tab with GitHub URL
+                const repoUrl = `https://github.com/${repoData.repository}/blob/${repoData.branch}/${item.path}`;
+                window.open(repoUrl, '_blank');
+            }
+        }
+
+        function setView(view) {
+            currentView = view;
+            
+            document.getElementById('list-view').classList.toggle('active', view === 'list');
+            document.getElementById('grid-view').classList.toggle('active', view === 'grid');
+            
+            renderItems();
+        }
+
+        function filterItems() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            
+            if (!searchTerm) {
+                let currentItems = repoData.structure;
+                for (const segment of currentPath) {
+                    const dir = currentItems.find(item => item.name === segment && item.type === 'directory');
+                    if (dir && dir.children) {
+                        currentItems = dir.children;
+                    }
+                }
+                filteredItems = currentItems;
+            } else {
+                // Search recursively through all items
+                function searchItems(items, searchTerm) {
+                    const results = [];
+                    items.forEach(item => {
+                        if (item.name.toLowerCase().includes(searchTerm)) {
+                            results.push(item);
+                        }
+                        if (item.type === 'directory' && item.children) {
+                            results.push(...searchItems(item.children, searchTerm));
+                        }
+                    });
+                    return results;
+                }
+                
+                filteredItems = searchItems(repoData.structure, searchTerm);
+            }
+            
+            renderItems();
+        }
+
+        // Initialize the application
+        loadRepoStructure();
     </script>
 </body>
 </html>

@@ -1,0 +1,323 @@
+{
+  "repository": "git@github.com:mydennislab/2025-khoe-san-novel",
+  "branch": "main",
+  "last_updated": "2025-06-09T12:42:53.556481",
+  "structure": [
+    {
+      "name": ".github",
+      "type": "directory",
+      "path": ".github",
+      "children": [
+        {
+          "name": "workflows",
+          "type": "directory",
+          "path": ".github/workflows",
+          "children": [
+            {
+              "name": "sync_repo_files.yml",
+              "type": "file",
+              "path": ".github/workflows/sync_repo_files.yml",
+              "size": 29009,
+              "size_formatted": "28.3 KB",
+              "modified": "2025-06-09T12:37:46",
+              "mime_type": "application/octet-stream"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Makefile",
+      "type": "file",
+      "path": "Makefile",
+      "size": 1348,
+      "size_formatted": "1.3 KB",
+      "modified": "2025-06-09T12:42:14",
+      "mime_type": "application/octet-stream"
+    },
+    {
+      "name": "README_BROWSER.md",
+      "type": "file",
+      "path": "README_BROWSER.md",
+      "size": 4900,
+      "size_formatted": "4.8 KB",
+      "modified": "2025-06-09T12:42:14",
+      "mime_type": "text/markdown"
+    },
+    {
+      "name": "chm13_analysis",
+      "type": "directory",
+      "path": "chm13_analysis",
+      "children": [
+        {
+          "name": "alignment.bam",
+          "type": "file",
+          "path": "chm13_analysis/alignment.bam",
+          "size": 3110286,
+          "size_formatted": "3.0 MB",
+          "modified": "2025-06-09T12:32:32",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "mapped.bam",
+          "type": "file",
+          "path": "chm13_analysis/mapped.bam",
+          "size": 1428201,
+          "size_formatted": "1.4 MB",
+          "modified": "2025-06-09T12:32:32",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "mapped_contigs.fa",
+          "type": "file",
+          "path": "chm13_analysis/mapped_contigs.fa",
+          "size": 2388427,
+          "size_formatted": "2.3 MB",
+          "modified": "2025-06-09T12:32:32",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "unmapped.bam",
+          "type": "file",
+          "path": "chm13_analysis/unmapped.bam",
+          "size": 1738451,
+          "size_formatted": "1.7 MB",
+          "modified": "2025-06-09T12:32:32",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "unmapped_contigs.fa",
+          "type": "file",
+          "path": "chm13_analysis/unmapped_contigs.fa",
+          "size": 5805659,
+          "size_formatted": "5.5 MB",
+          "modified": "2025-06-09T12:32:32",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "variants.vcf",
+          "type": "file",
+          "path": "chm13_analysis/variants.vcf",
+          "size": 5578752,
+          "size_formatted": "5.3 MB",
+          "modified": "2025-06-09T12:32:32",
+          "mime_type": "text/vcard"
+        },
+        {
+          "name": "variants_annotated.vcf_summary.html",
+          "type": "file",
+          "path": "chm13_analysis/variants_annotated.vcf_summary.html",
+          "size": 54415,
+          "size_formatted": "53.1 KB",
+          "modified": "2025-06-09T12:32:32",
+          "mime_type": "text/html"
+        }
+      ]
+    },
+    {
+      "name": "dani_unmapped_to_t2t.fa.gz",
+      "type": "file",
+      "path": "dani_unmapped_to_t2t.fa.gz",
+      "size": 3296588,
+      "size_formatted": "3.1 MB",
+      "modified": "2025-06-09T12:32:32",
+      "mime_type": "application/octet-stream"
+    },
+    {
+      "name": "dani_unmapped_to_t2t_larger_than_1000.fa.gz",
+      "type": "file",
+      "path": "dani_unmapped_to_t2t_larger_than_1000.fa.gz",
+      "size": 2465526,
+      "size_formatted": "2.4 MB",
+      "modified": "2025-06-09T12:32:32",
+      "mime_type": "application/octet-stream"
+    },
+    {
+      "name": "galaxy_kraken",
+      "type": "directory",
+      "path": "galaxy_kraken",
+      "children": [
+        {
+          "name": "Galaxy10-[Kraken on data 5_ Classification].tabular",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy10-[Kraken on data 5_ Classification].tabular",
+          "size": 91362,
+          "size_formatted": "89.2 KB",
+          "modified": "2025-06-09T12:32:32",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "Galaxy11-[Kraken taxonomic report on data 10 (Abundances)].tabular",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy11-[Kraken taxonomic report on data 10 (Abundances)].tabular",
+          "size": 1728,
+          "size_formatted": "1.7 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "Galaxy14-[Kraken-translate on data 10_ Translated classification].tabular",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy14-[Kraken-translate on data 10_ Translated classification].tabular",
+          "size": 13713,
+          "size_formatted": "13.4 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "Galaxy17-[Kraken2 on data 4_ Classification].tabular",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy17-[Kraken2 on data 4_ Classification].tabular",
+          "size": 881065,
+          "size_formatted": "860.4 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "Galaxy20-[RepeatMasker output log on data 18].tabular",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy20-[RepeatMasker output log on data 18].tabular",
+          "size": 78546,
+          "size_formatted": "76.7 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "Galaxy21-[RepeatMasker repeat statistics on data 18].txt",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy21-[RepeatMasker repeat statistics on data 18].txt",
+          "size": 1878,
+          "size_formatted": "1.8 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "text/plain"
+        },
+        {
+          "name": "Galaxy22-[RepeatMasker repeat catalogue on data 18].txt",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy22-[RepeatMasker repeat catalogue on data 18].txt",
+          "size": 535807,
+          "size_formatted": "523.2 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "text/plain"
+        },
+        {
+          "name": "Galaxy23-[RepeatMasker repeat annotation on data 18].gff",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy23-[RepeatMasker repeat annotation on data 18].gff",
+          "size": 103432,
+          "size_formatted": "101.0 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "Galaxy25-[Kraken2 on data 18_ Report].tabular",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy25-[Kraken2 on data 18_ Report].tabular",
+          "size": 10802,
+          "size_formatted": "10.5 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "Galaxy26-[Kraken2 on data 18_ Classification].tabular",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy26-[Kraken2 on data 18_ Classification].tabular",
+          "size": 928886,
+          "size_formatted": "907.1 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "Galaxy8-[Kraken on data 5_ Classified reads].fasta",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy8-[Kraken on data 5_ Classified reads].fasta",
+          "size": 1587216,
+          "size_formatted": "1.5 MB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "Galaxy9-[Kraken on data 5_ Unclassified reads].fasta",
+          "type": "file",
+          "path": "galaxy_kraken/Galaxy9-[Kraken on data 5_ Unclassified reads].fasta",
+          "size": 4218443,
+          "size_formatted": "4.0 MB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "application/octet-stream"
+        },
+        {
+          "name": "add_lengths.py",
+          "type": "file",
+          "path": "galaxy_kraken/add_lengths.py",
+          "size": 1076,
+          "size_formatted": "1.1 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "text/x-python"
+        },
+        {
+          "name": "bacteria_summary.tsv",
+          "type": "file",
+          "path": "galaxy_kraken/bacteria_summary.tsv",
+          "size": 14165,
+          "size_formatted": "13.8 KB",
+          "modified": "2025-06-09T12:32:33",
+          "mime_type": "text/tab-separated-values"
+        }
+      ]
+    },
+    {
+      "name": "generate_structure.py",
+      "type": "file",
+      "path": "generate_structure.py",
+      "size": 4131,
+      "size_formatted": "4.0 KB",
+      "modified": "2025-06-09T12:42:14",
+      "mime_type": "text/x-python"
+    },
+    {
+      "name": "index.html",
+      "type": "file",
+      "path": "index.html",
+      "size": 18295,
+      "size_formatted": "17.9 KB",
+      "modified": "2025-06-09T12:41:48",
+      "mime_type": "text/html"
+    },
+    {
+      "name": "repo_contents.json",
+      "type": "file",
+      "path": "repo_contents.json",
+      "size": 7355,
+      "size_formatted": "7.2 KB",
+      "modified": "2025-06-09T12:32:33",
+      "mime_type": "application/json"
+    },
+    {
+      "name": "repo_structure.json",
+      "type": "file",
+      "path": "repo_structure.json",
+      "size": 10053,
+      "size_formatted": "9.8 KB",
+      "modified": "2025-06-09T12:39:54",
+      "mime_type": "application/json"
+    },
+    {
+      "name": "tree.sh",
+      "type": "file",
+      "path": "tree.sh",
+      "size": 1321,
+      "size_formatted": "1.3 KB",
+      "modified": "2025-06-09T12:32:33",
+      "mime_type": "text/x-sh"
+    },
+    {
+      "name": "workflow.sh",
+      "type": "file",
+      "path": "workflow.sh",
+      "size": 1617,
+      "size_formatted": "1.6 KB",
+      "modified": "2025-06-09T12:32:33",
+      "mime_type": "text/x-sh"
+    }
+  ]
+}

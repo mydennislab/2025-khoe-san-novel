@@ -1,4 +1,4 @@
-name: Sync Repo Contents to JSON
+name: Build Repository Browser & Deploy to GitHub Pages
 
 on:
   push:
@@ -6,25 +6,718 @@ on:
       - main  # Runs on every push to main
   workflow_dispatch:  # Allows manual triggering
   schedule:
-    - cron: '0 0 * * *'  # Runs daily
+    - cron: '0 2 * * *'  # Runs daily at 2 AM UTC
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  update-json:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for complete file information
 
-      - name: Fetch Repository Contents
-        run: |
-          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-               -H "Accept: application/vnd.github.v3+json" \
-               https://api.github.com/repos/${{ github.repository }}/contents/ > repo_contents.json
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
 
-      - name: Commit and Push JSON
+      - name: Generate Repository Structure
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add repo_contents.json
-          git commit -m "Update repo contents JSON" || echo "No changes to commit"
-          git push
+          # Create a comprehensive directory structure with metadata
+          python3 << 'EOF'
+          import os
+          import json
+          import stat
+          import mimetypes
+          from datetime import datetime
+          from pathlib import Path
+          
+          def get_file_info(file_path):
+              """Get comprehensive file information"""
+              try:
+                  stats = os.stat(file_path)
+                  size = stats.st_size
+                  modified = datetime.fromtimestamp(stats.st_mtime).isoformat()
+                  
+                  # Get file type
+                  mime_type, _ = mimetypes.guess_type(file_path)
+                  
+                  # Format size
+                  def format_size(bytes):
+                      for unit in ['B', 'KB', 'MB', 'GB']:
+                          if bytes < 1024.0:
+                              return f"{bytes:.1f} {unit}"
+                          bytes /= 1024.0
+                      return f"{bytes:.1f} TB"
+                  
+                  return {
+                      'size': size,
+                      'size_formatted': format_size(size),
+                      'modified': modified,
+                      'mime_type': mime_type or 'application/octet-stream'
+                  }
+              except:
+                  return {
+                      'size': 0,
+                      'size_formatted': '0 B',
+                      'modified': datetime.now().isoformat(),
+                      'mime_type': 'application/octet-stream'
+                  }
+          
+          def build_tree(path, max_depth=10, current_depth=0):
+              """Build a recursive directory tree"""
+              items = []
+              
+              if current_depth >= max_depth:
+                  return items
+              
+              try:
+                  for item in sorted(os.listdir(path)):
+                      if item.startswith('.') and item not in ['.github']:
+                          continue
+                      
+                      item_path = os.path.join(path, item)
+                      relative_path = os.path.relpath(item_path, '.')
+                      
+                      if os.path.isdir(item_path):
+                          dir_info = {
+                              'name': item,
+                              'type': 'directory',
+                              'path': relative_path,
+                              'children': build_tree(item_path, max_depth, current_depth + 1)
+                          }
+                          items.append(dir_info)
+                      else:
+                          file_info = get_file_info(item_path)
+                          file_data = {
+                              'name': item,
+                              'type': 'file',
+                              'path': relative_path,
+                              **file_info
+                          }
+                          items.append(file_data)
+              except PermissionError:
+                  pass
+              
+              return items
+          
+          # Build the complete repository structure
+          repo_structure = {
+              'repository': '${{ github.repository }}',
+              'branch': '${{ github.ref_name }}',
+              'last_updated': datetime.now().isoformat(),
+              'structure': build_tree('.')
+          }
+          
+          # Save to JSON file
+          with open('repo_structure.json', 'w') as f:
+              json.dump(repo_structure, f, indent=2)
+          
+          print("Repository structure generated successfully!")
+          EOF
+
+      - name: Create Enhanced HTML Browser
+        run: |
+          cat > index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>${{ github.repository }} - Repository Browser</title>
+              <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+              <style>
+                  * {
+                      box-sizing: border-box;
+                      margin: 0;
+                      padding: 0;
+                  }
+          
+                  body {
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                      min-height: 100vh;
+                      padding: 20px;
+                  }
+          
+                  .container {
+                      max-width: 1200px;
+                      margin: 0 auto;
+                      background: white;
+                      border-radius: 12px;
+                      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                      overflow: hidden;
+                  }
+          
+                  .header {
+                      background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+                      color: white;
+                      padding: 30px;
+                      text-align: center;
+                  }
+          
+                  .header h1 {
+                      font-size: 2.5rem;
+                      margin-bottom: 10px;
+                  }
+          
+                  .header p {
+                      opacity: 0.8;
+                      font-size: 1.1rem;
+                  }
+          
+                  .breadcrumb {
+                      background: #f8f9fa;
+                      padding: 15px 30px;
+                      border-bottom: 1px solid #e9ecef;
+                      font-size: 14px;
+                  }
+          
+                  .breadcrumb span {
+                      color: #6c757d;
+                  }
+          
+                  .breadcrumb a {
+                      color: #007bff;
+                      text-decoration: none;
+                  }
+          
+                  .breadcrumb a:hover {
+                      text-decoration: underline;
+                  }
+          
+                  .controls {
+                      padding: 20px 30px;
+                      background: #f8f9fa;
+                      border-bottom: 1px solid #e9ecef;
+                      display: flex;
+                      gap: 15px;
+                      align-items: center;
+                      flex-wrap: wrap;
+                  }
+          
+                  .search-box {
+                      flex: 1;
+                      min-width: 250px;
+                      position: relative;
+                  }
+          
+                  .search-box input {
+                      width: 100%;
+                      padding: 10px 15px 10px 40px;
+                      border: 2px solid #ddd;
+                      border-radius: 25px;
+                      font-size: 14px;
+                      transition: border-color 0.3s;
+                  }
+          
+                  .search-box input:focus {
+                      outline: none;
+                      border-color: #007bff;
+                  }
+          
+                  .search-box i {
+                      position: absolute;
+                      left: 15px;
+                      top: 50%;
+                      transform: translateY(-50%);
+                      color: #6c757d;
+                  }
+          
+                  .view-toggle {
+                      display: flex;
+                      border: 1px solid #ddd;
+                      border-radius: 6px;
+                      overflow: hidden;
+                  }
+          
+                  .view-toggle button {
+                      padding: 8px 12px;
+                      border: none;
+                      background: white;
+                      cursor: pointer;
+                      transition: background-color 0.3s;
+                  }
+          
+                  .view-toggle button.active {
+                      background: #007bff;
+                      color: white;
+                  }
+          
+                  .content {
+                      padding: 30px;
+                  }
+          
+                  .file-list {
+                      list-style: none;
+                  }
+          
+                  .file-item {
+                      display: flex;
+                      align-items: center;
+                      padding: 12px 15px;
+                      border-radius: 8px;
+                      margin-bottom: 2px;
+                      transition: background-color 0.2s;
+                      cursor: pointer;
+                  }
+          
+                  .file-item:hover {
+                      background: #f8f9fa;
+                  }
+          
+                  .file-icon {
+                      width: 24px;
+                      margin-right: 12px;
+                      text-align: center;
+                  }
+          
+                  .file-icon.directory {
+                      color: #ffa500;
+                  }
+          
+                  .file-icon.file {
+                      color: #6c757d;
+                  }
+          
+                  .file-name {
+                      flex: 1;
+                      font-weight: 500;
+                  }
+          
+                  .file-name.directory {
+                      color: #007bff;
+                  }
+          
+                  .file-meta {
+                      display: flex;
+                      gap: 20px;
+                      font-size: 12px;
+                      color: #6c757d;
+                  }
+          
+                  .grid-view {
+                      display: grid;
+                      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                      gap: 20px;
+                  }
+          
+                  .grid-item {
+                      background: white;
+                      border: 1px solid #e9ecef;
+                      border-radius: 8px;
+                      padding: 20px;
+                      text-align: center;
+                      transition: transform 0.2s, box-shadow 0.2s;
+                      cursor: pointer;
+                  }
+          
+                  .grid-item:hover {
+                      transform: translateY(-2px);
+                      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                  }
+          
+                  .grid-item .icon {
+                      font-size: 48px;
+                      margin-bottom: 15px;
+                  }
+          
+                  .loading {
+                      text-align: center;
+                      padding: 50px;
+                      color: #6c757d;
+                  }
+          
+                  .error {
+                      background: #f8d7da;
+                      color: #721c24;
+                      padding: 15px;
+                      border-radius: 6px;
+                      margin: 20px 0;
+                  }
+          
+                  .stats {
+                      background: #e3f2fd;
+                      padding: 15px;
+                      border-radius: 6px;
+                      margin-bottom: 20px;
+                      display: flex;
+                      justify-content: space-between;
+                      flex-wrap: wrap;
+                      gap: 10px;
+                  }
+          
+                  .stat-item {
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                  }
+          
+                  @media (max-width: 768px) {
+                      .header h1 {
+                          font-size: 1.8rem;
+                      }
+                      
+                      .controls {
+                          flex-direction: column;
+                          align-items: stretch;
+                      }
+                      
+                      .file-meta {
+                          display: none;
+                      }
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="container">
+                  <div class="header">
+                      <h1><i class="fab fa-github"></i> ${{ github.repository }}</h1>
+                      <p>Interactive Repository Browser</p>
+                  </div>
+                  
+                  <div class="breadcrumb">
+                      <span id="breadcrumb-content">
+                          <a href="#" onclick="navigateTo([])">🏠 Home</a>
+                      </span>
+                  </div>
+                  
+                  <div class="controls">
+                      <div class="search-box">
+                          <i class="fas fa-search"></i>
+                          <input type="text" id="search" placeholder="Search files and folders..." onkeyup="filterItems()">
+                      </div>
+                      
+                      <div class="view-toggle">
+                          <button id="list-view" class="active" onclick="setView('list')">
+                              <i class="fas fa-list"></i> List
+                          </button>
+                          <button id="grid-view" onclick="setView('grid')">
+                              <i class="fas fa-th"></i> Grid
+                          </button>
+                      </div>
+                  </div>
+                  
+                  <div class="content">
+                      <div id="loading" class="loading">
+                          <i class="fas fa-spinner fa-spin"></i> Loading repository structure...
+                      </div>
+                      
+                      <div id="error" class="error" style="display: none;"></div>
+                      
+                      <div id="stats" class="stats" style="display: none;">
+                          <div class="stat-item">
+                              <i class="fas fa-folder"></i>
+                              <span id="dir-count">0 directories</span>
+                          </div>
+                          <div class="stat-item">
+                              <i class="fas fa-file"></i>
+                              <span id="file-count">0 files</span>
+                          </div>
+                          <div class="stat-item">
+                              <i class="fas fa-clock"></i>
+                              <span id="last-updated">Last updated: --</span>
+                          </div>
+                      </div>
+                      
+                      <ul id="file-list" class="file-list" style="display: none;"></ul>
+                      <div id="grid-container" class="grid-view" style="display: none;"></div>
+                  </div>
+              </div>
+          
+              <script>
+                  let repoData = null;
+                  let currentPath = [];
+                  let currentView = 'list';
+                  let filteredItems = [];
+          
+                  // File type icons mapping
+                  const fileIcons = {
+                      directory: 'fas fa-folder',
+                      '.js': 'fab fa-js-square',
+                      '.ts': 'fas fa-code',
+                      '.html': 'fab fa-html5',
+                      '.css': 'fab fa-css3-alt',
+                      '.py': 'fab fa-python',
+                      '.java': 'fab fa-java',
+                      '.json': 'fas fa-file-code',
+                      '.md': 'fab fa-markdown',
+                      '.txt': 'fas fa-file-alt',
+                      '.pdf': 'fas fa-file-pdf',
+                      '.doc': 'fas fa-file-word',
+                      '.xls': 'fas fa-file-excel',
+                      '.ppt': 'fas fa-file-powerpoint',
+                      '.zip': 'fas fa-file-archive',
+                      '.gz': 'fas fa-file-archive',
+                      '.tar': 'fas fa-file-archive',
+                      '.img': 'fas fa-file-image',
+                      '.jpg': 'fas fa-file-image',
+                      '.png': 'fas fa-file-image',
+                      '.gif': 'fas fa-file-image',
+                      '.mp4': 'fas fa-file-video',
+                      '.mp3': 'fas fa-file-audio',
+                      '.bam': 'fas fa-dna',
+                      '.vcf': 'fas fa-dna',
+                      '.fa': 'fas fa-dna',
+                      '.fasta': 'fas fa-dna',
+                      '.fastq': 'fas fa-dna',
+                      '.sam': 'fas fa-dna',
+                      '.bed': 'fas fa-dna',
+                      '.gff': 'fas fa-dna',
+                      '.gtf': 'fas fa-dna',
+                      '.ipynb': 'fas fa-code',
+                      default: 'fas fa-file'
+                  };
+          
+                  function getFileIcon(item) {
+                      if (item.type === 'directory') {
+                          return fileIcons.directory;
+                      }
+                      
+                      const ext = '.' + item.name.split('.').pop().toLowerCase();
+                      return fileIcons[ext] || fileIcons.default;
+                  }
+          
+                  async function loadRepoStructure() {
+                      try {
+                          const response = await fetch('repo_structure.json');
+                          if (!response.ok) throw new Error('Failed to load repository structure');
+                          
+                          repoData = await response.json();
+                          updateStats();
+                          navigateTo([]);
+                          
+                          document.getElementById('loading').style.display = 'none';
+                          document.getElementById('stats').style.display = 'flex';
+                      } catch (error) {
+                          document.getElementById('loading').style.display = 'none';
+                          document.getElementById('error').style.display = 'block';
+                          document.getElementById('error').textContent = 'Error: ' + error.message;
+                      }
+                  }
+          
+                  function updateStats() {
+                      if (!repoData) return;
+                      
+                      let dirCount = 0;
+                      let fileCount = 0;
+                      
+                      function countItems(items) {
+                          items.forEach(item => {
+                              if (item.type === 'directory') {
+                                  dirCount++;
+                                  if (item.children) countItems(item.children);
+                              } else {
+                                  fileCount++;
+                              }
+                          });
+                      }
+                      
+                      countItems(repoData.structure);
+                      
+                      document.getElementById('dir-count').textContent = `${dirCount} directories`;
+                      document.getElementById('file-count').textContent = `${fileCount} files`;
+                      document.getElementById('last-updated').textContent = `Last updated: ${new Date(repoData.last_updated).toLocaleString()}`;
+                  }
+          
+                  function navigateTo(path) {
+                      currentPath = [...path];
+                      updateBreadcrumb();
+                      
+                      let currentItems = repoData.structure;
+                      for (const segment of path) {
+                          const dir = currentItems.find(item => item.name === segment && item.type === 'directory');
+                          if (dir && dir.children) {
+                              currentItems = dir.children;
+                          }
+                      }
+                      
+                      filteredItems = currentItems;
+                      renderItems();
+                  }
+          
+                  function updateBreadcrumb() {
+                      const breadcrumb = document.getElementById('breadcrumb-content');
+                      let html = '<a href="#" onclick="navigateTo([])">🏠 Home</a>';
+                      
+                      for (let i = 0; i < currentPath.length; i++) {
+                          const pathSegment = currentPath.slice(0, i + 1);
+                          html += ` / <a href="#" onclick="navigateTo(${JSON.stringify(pathSegment)})">${currentPath[i]}</a>`;
+                      }
+                      
+                      breadcrumb.innerHTML = html;
+                  }
+          
+                  function renderItems() {
+                      if (currentView === 'list') {
+                          renderListView();
+                      } else {
+                          renderGridView();
+                      }
+                  }
+          
+                  function renderListView() {
+                      const fileList = document.getElementById('file-list');
+                      const gridContainer = document.getElementById('grid-container');
+                      
+                      fileList.style.display = 'block';
+                      gridContainer.style.display = 'none';
+                      
+                      fileList.innerHTML = '';
+                      
+                      // Sort items: directories first, then files, both alphabetically
+                      const sortedItems = [...filteredItems].sort((a, b) => {
+                          if (a.type !== b.type) {
+                              return a.type === 'directory' ? -1 : 1;
+                          }
+                          return a.name.localeCompare(b.name);
+                      });
+                      
+                      sortedItems.forEach(item => {
+                          const li = document.createElement('li');
+                          li.className = 'file-item';
+                          li.onclick = () => handleItemClick(item);
+                          
+                          const iconClass = getFileIcon(item);
+                          const isDirectory = item.type === 'directory';
+                          
+                          li.innerHTML = `
+                              <div class="file-icon ${item.type}">
+                                  <i class="${iconClass}"></i>
+                              </div>
+                              <div class="file-name ${item.type}">
+                                  ${item.name}
+                              </div>
+                              <div class="file-meta">
+                                  ${!isDirectory ? `<span>${item.size_formatted || '—'}</span>` : ''}
+                                  ${!isDirectory && item.modified ? `<span>${new Date(item.modified).toLocaleDateString()}</span>` : ''}
+                              </div>
+                          `;
+                          
+                          fileList.appendChild(li);
+                      });
+                  }
+          
+                  function renderGridView() {
+                      const fileList = document.getElementById('file-list');
+                      const gridContainer = document.getElementById('grid-container');
+                      
+                      fileList.style.display = 'none';
+                      gridContainer.style.display = 'grid';
+                      
+                      gridContainer.innerHTML = '';
+                      
+                      const sortedItems = [...filteredItems].sort((a, b) => {
+                          if (a.type !== b.type) {
+                              return a.type === 'directory' ? -1 : 1;
+                          }
+                          return a.name.localeCompare(b.name);
+                      });
+                      
+                      sortedItems.forEach(item => {
+                          const div = document.createElement('div');
+                          div.className = 'grid-item';
+                          div.onclick = () => handleItemClick(item);
+                          
+                          const iconClass = getFileIcon(item);
+                          const isDirectory = item.type === 'directory';
+                          
+                          div.innerHTML = `
+                              <div class="icon">
+                                  <i class="${iconClass}" style="color: ${isDirectory ? '#ffa500' : '#6c757d'}"></i>
+                              </div>
+                              <div class="file-name">
+                                  ${item.name}
+                              </div>
+                              ${!isDirectory && item.size_formatted ? `<div style="font-size: 12px; color: #6c757d; margin-top: 5px;">${item.size_formatted}</div>` : ''}
+                          `;
+                          
+                          gridContainer.appendChild(div);
+                      });
+                  }
+          
+                  function handleItemClick(item) {
+                      if (item.type === 'directory') {
+                          navigateTo([...currentPath, item.name]);
+                      } else {
+                          // For files, open in new tab with GitHub raw URL
+                          const repoUrl = `https://github.com/${repoData.repository}/blob/${repoData.branch}/${item.path}`;
+                          window.open(repoUrl, '_blank');
+                      }
+                  }
+          
+                  function setView(view) {
+                      currentView = view;
+                      
+                      document.getElementById('list-view').classList.toggle('active', view === 'list');
+                      document.getElementById('grid-view').classList.toggle('active', view === 'grid');
+                      
+                      renderItems();
+                  }
+          
+                  function filterItems() {
+                      const searchTerm = document.getElementById('search').value.toLowerCase();
+                      
+                      if (!searchTerm) {
+                          let currentItems = repoData.structure;
+                          for (const segment of currentPath) {
+                              const dir = currentItems.find(item => item.name === segment && item.type === 'directory');
+                              if (dir && dir.children) {
+                                  currentItems = dir.children;
+                              }
+                          }
+                          filteredItems = currentItems;
+                      } else {
+                          // Search recursively through all items
+                          function searchItems(items, searchTerm) {
+                              const results = [];
+                              items.forEach(item => {
+                                  if (item.name.toLowerCase().includes(searchTerm)) {
+                                      results.push(item);
+                                  }
+                                  if (item.type === 'directory' && item.children) {
+                                      results.push(...searchItems(item.children, searchTerm));
+                                  }
+                              });
+                              return results;
+                          }
+                          
+                          filteredItems = searchItems(repoData.structure, searchTerm);
+                      }
+                      
+                      renderItems();
+                  }
+          
+                  // Initialize the application
+                  loadRepoStructure();
+              </script>
+          </body>
+          </html>
+          EOF
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

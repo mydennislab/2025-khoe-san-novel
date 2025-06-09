@@ -1,0 +1,39 @@
+# GitHub Pages Configuration
+# This file helps configure Jekyll for GitHub Pages
+
+# Site settings
+title: "2025 Khoe-San Novel Repository Browser"
+description: "Interactive file browser for the khoe-san novel contigs analysis"
+baseurl: ""
+url: "https://mydennislab.github.io/2025-khoe-san-novel"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Makefile
+  - generate_structure.py
+  - .github/
+  - node_modules/
+  - vendor/
+
+# Include these files in the build
+include:
+  - _redirects
+
+# Plugin settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Repository information
+repository: "mydennislab/2025-khoe-san-novel"
+github_username: "mydennislab"
+
+# Custom variables
+repository_name: "2025 Khoe-San Novel COntigs Analaysis"
+last_updated: "2025-06-09"
