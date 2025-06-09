@@ -1,12 +1,7 @@
 #!/bin/bash
 
-# Repository Browser Deployment Script
-# This script prepares the repository for GitHub Pages deployment
-
 set -e  # Exit on any error
 
-echo "🚀 Starting Repository Browser Deployment..."
-echo "================================================"
 
 # Colors for output
 RED='\033[0;31m'
@@ -15,7 +10,7 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
-# Function to print colored output
+
 print_status() {
     echo -e "${BLUE}[INFO]${NC} $1"
 }
@@ -73,15 +68,6 @@ else
     print_warning "GitHub Actions workflow not found. Manual deployment only."
 fi
 
-# Create deployment summary
-echo ""
-echo "📊 DEPLOYMENT SUMMARY"
-echo "===================="
-echo "Repository: $(git remote get-url origin 2>/dev/null || echo 'Unknown')"
-echo "Branch: $(git branch --show-current 2>/dev/null || echo 'Unknown')"
-echo "Structure Items: $ITEM_COUNT"
-echo "Last Updated: $(date)"
-echo ""
 
 # Git status check
 if [ -n "$(git status --porcelain)" ]; then
@@ -105,17 +91,7 @@ if [ -n "$(git status --porcelain)" ]; then
     fi
 fi
 
-# Instructions for GitHub Pages
-echo ""
-echo "🌐 GITHUB PAGES SETUP"
-echo "===================="
-echo "To enable GitHub Pages for this repository:"
-echo "1. Go to your repository on GitHub"
-echo "2. Navigate to Settings > Pages"
-echo "3. Under 'Source', select 'GitHub Actions'"
-echo "4. The workflow will automatically deploy your browser"
-echo ""
-echo "Your site will be available at:"
+
 # Parse GitHub URL properly
 REPO_URL=$(git remote get-url origin 2>/dev/null || echo '')
 if [[ $REPO_URL =~ git@github.com:(.+)\.git ]]; then
@@ -130,7 +106,47 @@ elif [[ $REPO_URL =~ https://github.com/(.+) ]]; then
 else
     REPO_PATH="username/repository"
 fi
+
+# Create deployment summary
+echo ""
+echo "📊 DEPLOYMENT SUMMARY"
+echo "===================="
+echo "Repository: $REPO_URL"
+echo "Repository Path: $REPO_PATH"
+echo "Branch: $(git branch --show-current 2>/dev/null || echo 'Unknown')"
+echo "Structure Items: $ITEM_COUNT"
+echo "Last Updated: $(date)"
+echo ""
+
+# Instructions for GitHub Pages
+echo ""
+echo "🌐 GITHUB PAGES SETUP"
+echo "===================="
+echo "To enable GitHub Pages for this repository:"
+echo "1. Go to your repository on GitHub"
+echo "2. Navigate to Settings > Pages"
+echo "3. Under 'Source', select 'GitHub Actions'"
+echo "4. The workflow will automatically deploy your browser"
+echo ""
+echo "Your site will be available at:"
 echo "https://${REPO_PATH%/*}.github.io/${REPO_PATH##*/}/"
+echo ""
+
+# Test a sample file URL
+echo "📋 SAMPLE FILE ACCESS"
+echo "===================="
+echo "Example file URLs that will be generated:"
+SAMPLE_FILE="galaxy_kraken/bacteria_summary.tsv"
+if [ -f "$SAMPLE_FILE" ]; then
+    echo "File: $SAMPLE_FILE"
+    echo "View: https://github.com/$REPO_PATH/blob/main/$SAMPLE_FILE"
+    echo "Raw:  https://raw.githubusercontent.com/$REPO_PATH/main/$SAMPLE_FILE"
+    echo "Download: Same as Raw URL"
+else
+    echo "Sample file not found, but URLs would follow this pattern:"
+    echo "View: https://github.com/$REPO_PATH/blob/main/[file-path]"
+    echo "Raw:  https://raw.githubusercontent.com/$REPO_PATH/main/[file-path]"
+fi
 echo ""
 
 print_success "Deployment preparation complete!"

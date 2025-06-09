@@ -324,30 +324,86 @@
             '.txt': 'fas fa-file-alt',
             '.pdf': 'fas fa-file-pdf',
             '.doc': 'fas fa-file-word',
+            '.docx': 'fas fa-file-word',
             '.xls': 'fas fa-file-excel',
+            '.xlsx': 'fas fa-file-excel',
             '.ppt': 'fas fa-file-powerpoint',
+            '.pptx': 'fas fa-file-powerpoint',
             '.zip': 'fas fa-file-archive',
             '.gz': 'fas fa-file-archive',
             '.tar': 'fas fa-file-archive',
+            '.rar': 'fas fa-file-archive',
+            '.7z': 'fas fa-file-archive',
             '.img': 'fas fa-file-image',
             '.jpg': 'fas fa-file-image',
+            '.jpeg': 'fas fa-file-image',
             '.png': 'fas fa-file-image',
             '.gif': 'fas fa-file-image',
+            '.svg': 'fas fa-file-image',
+            '.bmp': 'fas fa-file-image',
+            '.tiff': 'fas fa-file-image',
             '.mp4': 'fas fa-file-video',
+            '.avi': 'fas fa-file-video',
+            '.mov': 'fas fa-file-video',
+            '.wmv': 'fas fa-file-video',
             '.mp3': 'fas fa-file-audio',
+            '.wav': 'fas fa-file-audio',
+            '.flac': 'fas fa-file-audio',
+            // Bioinformatics specific formats
             '.bam': 'fas fa-dna',
-            '.vcf': 'fas fa-dna',
-            '.fa': 'fas fa-dna',
-            '.fasta': 'fas fa-dna',
-            '.fastq': 'fas fa-dna',
             '.sam': 'fas fa-dna',
+            '.vcf': 'fas fa-dna',
+            '.bcf': 'fas fa-dna',
+            '.fa': 'fas fa-dna',
+            '.fas': 'fas fa-dna',
+            '.fasta': 'fas fa-dna',
+            '.fna': 'fas fa-dna',
+            '.fastq': 'fas fa-dna',
+            '.fq': 'fas fa-dna',
             '.bed': 'fas fa-dna',
             '.gff': 'fas fa-dna',
+            '.gff3': 'fas fa-dna',
             '.gtf': 'fas fa-dna',
+            '.wig': 'fas fa-dna',
+            '.bigwig': 'fas fa-dna',
+            '.bw': 'fas fa-dna',
+            '.bigbed': 'fas fa-dna',
+            '.bb': 'fas fa-dna',
+            '.maf': 'fas fa-dna',
+            '.psl': 'fas fa-dna',
+            '.chain': 'fas fa-dna',
+            '.2bit': 'fas fa-dna',
+            '.nib': 'fas fa-dna',
+            // Analysis formats
+            '.tsv': 'fas fa-table',
+            '.csv': 'fas fa-table',
+            '.tab': 'fas fa-table',
+            '.tabular': 'fas fa-table',
+            '.xlsx': 'fas fa-file-excel',
+            '.xls': 'fas fa-file-excel',
+            // Code and configuration
             '.ipynb': 'fas fa-code',
+            '.r': 'fab fa-r-project',
+            '.R': 'fab fa-r-project',
+            '.rmd': 'fab fa-r-project',
+            '.Rmd': 'fab fa-r-project',
+            '.pl': 'fas fa-code',
+            '.perl': 'fas fa-code',
+            '.sh': 'fas fa-terminal',
+            '.bash': 'fas fa-terminal',
+            '.zsh': 'fas fa-terminal',
+            '.fish': 'fas fa-terminal',
             '.yml': 'fas fa-cog',
             '.yaml': 'fas fa-cog',
-            '.sh': 'fas fa-terminal',
+            '.toml': 'fas fa-cog',
+            '.ini': 'fas fa-cog',
+            '.conf': 'fas fa-cog',
+            '.config': 'fas fa-cog',
+            // Logs and reports
+            '.log': 'fas fa-file-alt',
+            '.out': 'fas fa-file-alt',
+            '.err': 'fas fa-exclamation-triangle',
+            '.report': 'fas fa-chart-bar',
             default: 'fas fa-file'
         };
 
@@ -522,24 +578,160 @@
             if (item.type === 'directory') {
                 navigateTo([...currentPath, item.name]);
             } else {
-                // For files, open in new tab with GitHub URL
-                // Ensure proper GitHub URL format
-                let repoPath = repoData.repository;
-                
-                // Handle different repository formats
-                if (repoPath.includes('git@github.com:')) {
-                    repoPath = repoPath.replace('git@github.com:', '');
-                } else if (repoPath.includes('https://github.com/')) {
-                    repoPath = repoPath.replace('https://github.com/', '');
-                }
-                
-                // Remove .git suffix if present
-                repoPath = repoPath.replace('.git', '');
-                
-                // Construct proper GitHub URL
-                const repoUrl = `https://github.com/${repoPath}/blob/${repoData.branch}/${item.path}`;
-                window.open(repoUrl, '_blank');
+                // For files, show options to view or download
+                showFileOptions(item);
             }
+        }
+
+        function showFileOptions(item) {
+            // Create a modal-like popup for file options
+            const overlay = document.createElement('div');
+            overlay.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0,0,0,0.5);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1000;
+            `;
+            
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                background: white;
+                border-radius: 12px;
+                padding: 30px;
+                max-width: 500px;
+                width: 90%;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            `;
+            
+            const fileName = item.name;
+            const fileSize = item.size_formatted || '';
+            
+            // Ensure proper GitHub URL format
+            let repoPath = repoData.repository;
+            if (repoPath.includes('git@github.com:')) {
+                repoPath = repoPath.replace('git@github.com:', '');
+            } else if (repoPath.includes('https://github.com/')) {
+                repoPath = repoPath.replace('https://github.com/', '');
+            }
+            repoPath = repoPath.replace('.git', '');
+            
+            const branch = repoData.branch;
+            const filePath = item.path;
+            
+            // GitHub URLs
+            const viewUrl = `https://github.com/${repoPath}/blob/${branch}/${filePath}`;
+            const rawUrl = `https://raw.githubusercontent.com/${repoPath}/${branch}/${filePath}`;
+            
+            modal.innerHTML = `
+                <div style="text-align: center;">
+                    <h3 style="margin-bottom: 20px; color: #2c3e50;">
+                        <i class="${getFileIcon(item)}" style="margin-right: 8px;"></i>
+                        ${fileName}
+                    </h3>
+                    ${fileSize ? `<p style="color: #6c757d; margin-bottom: 20px;">Size: ${fileSize}</p>` : ''}
+                    
+                    <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;">
+                        <button onclick="window.open('${viewUrl}', '_blank')" style="
+                            background: #007bff;
+                            color: white;
+                            border: none;
+                            padding: 12px 20px;
+                            border-radius: 6px;
+                            cursor: pointer;
+                            font-size: 14px;
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+                        ">
+                            <i class="fas fa-eye"></i>
+                            View on GitHub
+                        </button>
+                        
+                        <button onclick="window.open('${rawUrl}', '_blank')" style="
+                            background: #28a745;
+                            color: white;
+                            border: none;
+                            padding: 12px 20px;
+                            border-radius: 6px;
+                            cursor: pointer;
+                            font-size: 14px;
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+                        ">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Raw
+                        </button>
+                        
+                        <button onclick="downloadFile('${rawUrl}', '${fileName}')" style="
+                            background: #ffc107;
+                            color: #212529;
+                            border: none;
+                            padding: 12px 20px;
+                            border-radius: 6px;
+                            cursor: pointer;
+                            font-size: 14px;
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+                        ">
+                            <i class="fas fa-download"></i>
+                            Download
+                        </button>
+                    </div>
+                    
+                    <button onclick="this.closest('#file-options-overlay').remove()" style="
+                        background: #6c757d;
+                        color: white;
+                        border: none;
+                        padding: 8px 16px;
+                        border-radius: 6px;
+                        cursor: pointer;
+                        font-size: 14px;
+                    ">
+                        Cancel
+                    </button>
+                </div>
+            `;
+            
+            overlay.id = 'file-options-overlay';
+            overlay.appendChild(modal);
+            document.body.appendChild(overlay);
+            
+            // Close on background click
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) {
+                    overlay.remove();
+                }
+            });
+            
+            // Close on Escape key
+            document.addEventListener('keydown', function escapeHandler(e) {
+                if (e.key === 'Escape') {
+                    overlay.remove();
+                    document.removeEventListener('keydown', escapeHandler);
+                }
+            });
+        }
+
+        function downloadFile(url, filename) {
+            // Create a temporary link element to trigger download
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            // Close the modal
+            document.getElementById('file-options-overlay')?.remove();
         }
 
         function setView(view) {

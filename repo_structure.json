@@ -1,7 +1,7 @@
 {
   "repository": "mydennislab/2025-khoe-san-novel",
   "branch": "main",
-  "last_updated": "2025-06-09T13:01:27.493484",
+  "last_updated": "2025-06-09T13:15:52.396199",
   "structure": [
     {
       "name": ".github",
@@ -39,9 +39,9 @@
       "name": "Makefile",
       "type": "file",
       "path": "Makefile",
-      "size": 1349,
-      "size_formatted": "1.3 KB",
-      "modified": "2025-06-09T12:50:26",
+      "size": 1472,
+      "size_formatted": "1.4 KB",
+      "modified": "2025-06-09T13:14:57",
       "mime_type": "application/octet-stream"
     },
     {
@@ -163,10 +163,16 @@
       "name": "deploy.sh",
       "type": "file",
       "path": "deploy.sh",
-      "size": 3947,
-      "size_formatted": "3.9 KB",
-      "modified": "2025-06-09T13:01:22",
+      "size": 4351,
+      "size_formatted": "4.2 KB",
+      "modified": "2025-06-09T13:15:41",
       "mime_type": "text/x-sh"
+    },
+    {
+      "name": "figure",
+      "type": "directory",
+      "path": "figure",
+      "children": []
     },
     {
       "name": "galaxy_kraken",
@@ -314,9 +320,9 @@
       "name": "index.html",
       "type": "file",
       "path": "index.html",
-      "size": 18943,
-      "size_formatted": "18.5 KB",
-      "modified": "2025-06-09T13:01:22",
+      "size": 26547,
+      "size_formatted": "25.9 KB",
+      "modified": "2025-06-09T13:13:52",
       "mime_type": "text/html"
     },
     {
@@ -332,10 +338,19 @@
       "name": "repo_structure.json",
       "type": "file",
       "path": "repo_structure.json",
-      "size": 10561,
-      "size_formatted": "10.3 KB",
-      "modified": "2025-06-09T12:42:53",
+      "size": 11792,
+      "size_formatted": "11.5 KB",
+      "modified": "2025-06-09T13:15:18",
       "mime_type": "application/json"
+    },
+    {
+      "name": "test_urls.py",
+      "type": "file",
+      "path": "test_urls.py",
+      "size": 5792,
+      "size_formatted": "5.7 KB",
+      "modified": "2025-06-09T13:14:48",
+      "mime_type": "text/x-python"
     },
     {
       "name": "tree.sh",

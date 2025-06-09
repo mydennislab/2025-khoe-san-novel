@@ -1,4 +1,4 @@
-.PHONY: help generate serve clean test deploy
+.PHONY: help generate serve clean test deploy test-urls
 
 help: ## Show this help message
 	@echo "Repository Browser Commands:"
@@ -23,6 +23,10 @@ clean: ## Clean generated files
 test: generate ## Test the structure generation
 	@echo "🧪 Testing repository structure generation..."
 	@python3 -c "import json; data = json.load(open('repo_structure.json')); print(f'✅ Valid JSON with {len(data[\"structure\"])} top-level items')"
+
+test-urls: generate ## Test GitHub URL construction
+	@echo "🔗 Testing GitHub URLs..."
+	@python3 test_urls.py
 
 deploy: generate ## Prepare for deployment (generate structure)
 	@echo "🚀 Preparing for deployment..."
